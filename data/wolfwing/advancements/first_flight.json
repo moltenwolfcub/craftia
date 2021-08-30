@@ -1,0 +1,15 @@
+{
+    "parent": "wolfwing:base",
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": "First Flight",
+        "description": "Use wwing_fly"
+    },
+    "criteria": {
+        "fly": {
+            "trigger": "impossible"
+        }
+    }
+}

@@ -1,3 +1,14 @@
+# 1.1.0
+
+Features:
+- added an uninstall function
+- added a trigger to add your tag to yourself
+- added advancements
+
+BugFixes:
+- trigger for panda_giveyou is now enabled
+- panda giveyou now gives to the nearest player
+
 # 1.0.0
 
 Features:

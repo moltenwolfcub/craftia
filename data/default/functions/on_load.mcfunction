@@ -1,0 +1,1 @@
+scoreboard objectives add craftia_tag_me trigger

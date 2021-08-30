@@ -16,6 +16,8 @@ execute as @a[tag=drcc,scores={drcc_nuke-launch=1}] run scoreboard players set @
 execute as @a[tag=drcc,scores={drcc_nuke-launch=3..}] run title @a title {"text":"Tactical Nuke Incoming","bold":true,"underlined":true,"color":"red"}
 execute if entity @a[scores={drcc_nuke-launch = 3}] at @e[type=armor_stand,tag=nuke] run playsound drcc.nuke player @a ~ ~ ~ 5
 
+advancement grant @a[tag=drcc,scores={drcc_nuke-launch=1}] only dr_crimso_creep:nuke
+
 execute as @a[tag=drcc,scores={drcc_nuke-launch=3..}] run execute as @e[type=minecraft:armor_stand,tag=nuke] at @s run summon minecraft:falling_block ~ ~100 ~ {Tags:["nuke_fall"],Time:18,Motion:[0.0d,-1.5d,0.0d],BlockState: {Name:"minecraft:coal_block"}}
 execute as @a[tag=drcc,scores={drcc_nuke-launch=3..}] run scoreboard players set @s drcc_nuke-launch 0
 

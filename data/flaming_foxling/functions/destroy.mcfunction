@@ -4,4 +4,7 @@ execute as @a[tag=ff,scores={ff_destroy=1}] run scoreboard players set @s ff_des
 execute as @a[tag=ff,scores={ff_destroy=3}] run tellraw @a ["",{"selector":"@s","bold":true,"underlined":true,"color":"#FF0000"},{"text":" Launched Ultimate Destruction!","bold":true,"underlined":true,"color":"#FF0000","hoverEvent":{"action":"show_text","contents":[{"text":"A massive Explotion","color":"#FF0000"}]}},"\n",{"text":"I would advise running away from ","color":"#6496FF"},{"selector":"@s","color":"#6496FF"},{"text":"!!!","color":"#6496FF"}]
 execute as @a[tag=ff,scores={ff_destroy=3}] run effect give @s minecraft:resistance 3 127 true
 execute at @a[tag=ff,scores={ff_destroy=3}] run summon minecraft:creeper ~ ~ ~ {Fuse:0,ExplosionRadius:127,powered:1}
+
+advancement grant @a[tag=ff,scores={ff_destroy=3}] only flaming_foxling:base
+
 execute as @a[tag=ff,scores={ff_destroy=3}] run scoreboard players set @s ff_destroy 0

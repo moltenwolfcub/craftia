@@ -1,0 +1,15 @@
+{
+    "parent": "dr_crimso_creep:base",
+    "display": {
+        "icon": {
+            "item": "minecraft:coal_block"
+        },
+        "title": "Ever Heard of a Nuke?",
+        "description": "Launch drcc_nuke-launch"
+    },
+    "criteria": {
+        "nuke": {
+            "trigger": "impossible"
+        }
+    }
+}

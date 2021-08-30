@@ -1,0 +1,15 @@
+{
+    "parent": "flaming_foxling:base",
+    "display": {
+        "icon": {
+            "item": "minecraft:fire_charge"
+        },
+        "title": "Ulitmate Destruction!",
+        "description": "Wow you are brave."
+    },
+    "criteria": {
+        "destroy": {
+            "trigger": "impossible"
+        }
+    }
+}
