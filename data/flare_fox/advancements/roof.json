@@ -1,5 +1,5 @@
 {
-    "parent": "flaming_foxling:base",
+    "parent": "flare_fox:base",
     "display": {
         "icon": {
             "item": "minecraft:bedrock"

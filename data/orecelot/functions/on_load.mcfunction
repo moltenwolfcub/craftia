@@ -1,5 +1,5 @@
 team add orecelot
-team modify orecelot color gold
+team modify orecelot color yellow
 team modify orecelot friendlyFire false
 team modify orecelot prefix "Orecelot - "
 

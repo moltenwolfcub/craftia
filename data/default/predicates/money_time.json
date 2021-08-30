@@ -1,0 +1,7 @@
+{
+    "condition": "time_check",
+    "value": {
+        "min": 100,
+        "max": 100
+    }
+}

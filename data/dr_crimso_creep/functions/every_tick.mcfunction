@@ -12,3 +12,4 @@ function dr_crimso_creep:grenades
 function dr_crimso_creep:snare
 function dr_crimso_creep:nuke
 function dr_crimso_creep:offhand_buff
+function dr_crimso_creep:troll_sound

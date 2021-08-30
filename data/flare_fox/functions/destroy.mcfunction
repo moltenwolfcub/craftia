@@ -5,6 +5,7 @@ execute as @a[tag=ff,scores={ff_destroy=3}] run tellraw @a ["",{"selector":"@s",
 execute as @a[tag=ff,scores={ff_destroy=3}] run effect give @s minecraft:resistance 3 127 true
 execute at @a[tag=ff,scores={ff_destroy=3}] run summon minecraft:creeper ~ ~ ~ {Fuse:0,ExplosionRadius:127,powered:1}
 
-advancement grant @a[tag=ff,scores={ff_destroy=3}] only flaming_foxling:base
+advancement grant @a[tag=ff,scores={ff_destroy=3..}] only flare_fox:ultimate_destruction
+execute if entity @a[tag=ff,scores={ff_destroy=3..}] run playsound craftia.ff.destroy voice @a
 
 execute as @a[tag=ff,scores={ff_destroy=3}] run scoreboard players set @s ff_destroy 0

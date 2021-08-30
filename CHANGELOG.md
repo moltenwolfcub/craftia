@@ -1,3 +1,37 @@
+# 1.3.0 (Unreleased)
+
+Added Features:
+- added wolfwing, Potion Panda and Flare Fox pets
+- added wolfwing fly sound
+- added drcc troll sound
+- added Flare Fox stuff for the mooshroom biome
+- added panda custom food
+- added wwing banner
+- added shields for wwing, ff and panda
+- added currency
+- added crafton shop
+- added Flare Fox Ultimate Destruction sound
+- aquallotle dies if out of water for too long
+- aquallotle can now have frost walker boots
+- Panda offhand buff
+- ff fireball staff
+- ff lightning staff
+
+Changes:
+- made wolfwing crossbow more powerful
+- made wolfwing arrows into tipped arrows
+- Flaming Foxling is now Flare Fox
+- aquallotle only resets keepInventory when dying in nether not every tick
+- aquallotle_block auto removes the blocks now
+- changed creator rank to dev
+
+BugFixes:
+- added more blocks that the drcc_grenades can explode on (Now has all logical things begining with A, B and C)
+- Craftia_tag_me now does ranks as well
+- modified og particles to be less laggy
+- Craftia_tag_me was using the name Oliver85 even if you had a different player name.
+- The Blade of the Underworld advancement now only gives it to you if you have a regular netherite sword not the drcc or panda ones
+
 # 1.2.0
 
 Features:

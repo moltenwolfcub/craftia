@@ -1,8 +1,9 @@
 {
-    "parent": "flaming_foxling:base",
+    "parent": "flare_fox:base",
     "display": {
         "icon": {
-            "item": "minecraft:netherite_sword"
+            "item": "minecraft:netherite_sword",
+            "nbt": "{CustomModelData:0}"
         },
         "title": "Blade of the Underworld",
         "description": "Craft a netherite sword"

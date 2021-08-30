@@ -11,7 +11,7 @@ execute if entity @a[scores={aquallotle_nethe=100..}] run tellraw @a ["",{"selec
 
 kill @a[scores={aquallotle_nethe=100..}]
 
-schedule function aquallotle:no_nether/reset_gamerule 10t append
+execute if entity @a[scores={aquallotle_nethe=100..}] run schedule function aquallotle:no_nether/reset_gamerule 10t append
 
 execute if entity @a[scores={aquallotle_nethe=100..}] run gamerule showDeathMessages true
 execute if entity @a[scores={aquallotle_nethe=100..}] run gamerule doImmediateRespawn false

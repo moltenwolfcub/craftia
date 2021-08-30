@@ -11,5 +11,8 @@
         "fly": {
             "trigger": "impossible"
         }
+    },
+    "rewards": {
+        "function": "wolfwing:advancements/fly"
     }
 }

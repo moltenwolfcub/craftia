@@ -4,7 +4,7 @@
 
         "aquallotle:on_load",
         "dr_crimso_creep:on_load",
-        "flaming_foxling:on_load",
+        "flare_fox:on_load",
         "orecelot:on_load",
         "potion_panda:on_load",
         "wolfwing:on_load"

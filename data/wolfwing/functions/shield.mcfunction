@@ -1,0 +1,3 @@
+scoreboard players enable @a[tag=wwing] wwing_shield
+execute as @a[tag=wwing,scores={wwing_shield=1..}] run give @s minecraft:shield{Unbreakable:1b,Enchantments:[{id:"soul_speed",lvl:5}],display:{Name:'{"text":"WolfWing shield"}'},BlockEntityTag:{Base:8,Patterns:[{Color:1,Pattern:"bs"},{Color:8,Pattern:"gru"},{Color:7,Pattern:"ts"},{Color:15,Pattern:"mr"},{Color:14,Pattern:"ms"},{Color:8,Pattern:"cbo"},{Color:8,Pattern:"mc"},{Color:8,Pattern:"cre"},{Color:8,Pattern:"tt"}]}}
+scoreboard players set @a[tag=wwing,scores={wwing_shield=1..}] wwing_shield 0

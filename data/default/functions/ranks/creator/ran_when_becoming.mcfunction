@@ -1,2 +1,0 @@
-execute as @a[tag=creator] if entity @s[tag=!old_creator] run tellraw @s [{"selector":"@s","color":"#23D416"},{"text":" , you are one of the Craftia Developers!","color":"#23D416"}]
-execute as @a[tag=creator] if entity @s[tag=!old_creator] run tag @s add old_creator
