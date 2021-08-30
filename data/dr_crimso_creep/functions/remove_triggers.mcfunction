@@ -9,5 +9,6 @@ execute as @a[tag=!drcc] run trigger drcc_redstone set 0
 execute as @a[tag=!drcc] run trigger drcc_tool set 0
 execute as @a[tag=!drcc] run trigger drcc_snare-clear set 0
 execute as @a[tag=!drcc] run trigger drcc_snare-set set 0
+execute as @a[tag=!drcc] run trigger drcc_snare-show set 0
 
 execute as @a[tag=!drcc] run tag @s remove old_drcc

@@ -1,5 +1,5 @@
 team add panda
-team modify panda color red
+team modify panda color blue
 team modify panda friendlyFire false
 team modify panda prefix "Potion Panda - "
 

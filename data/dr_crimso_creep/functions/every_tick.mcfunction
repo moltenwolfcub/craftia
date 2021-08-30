@@ -4,8 +4,11 @@ function dr_crimso_creep:remove_triggers
 function dr_crimso_creep:item
 function dr_crimso_creep:redstone
 function dr_crimso_creep:equip
+function dr_crimso_creep:tool
 
 function dr_crimso_creep:particle
 function dr_crimso_creep:peaceful_creepers
 function dr_crimso_creep:grenades
 function dr_crimso_creep:snare
+function dr_crimso_creep:nuke
+function dr_crimso_creep:offhand_buff

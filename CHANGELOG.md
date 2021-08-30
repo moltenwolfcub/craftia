@@ -1,3 +1,17 @@
+# 0.1.3
+
+Features:
+- Changed Potion Panda's weapon to a retextured netherite sword
+- Panda Bamboo Sword now has sweeping edge
+
+BugFixes:
+- Aquallotle_pet was a baby now an adult
+- Changed Potion Panda's Name back to blue
+- Now Auto Removes Panda_item trigger when tag is removed
+- Panda_item was giveing the player 21 cookies in offhand rather than 2
+- Now auto removes drcc_nuke-show
+- The Dr CrimsoCreep's Tool, Offhand and nuke weren't running and now they are
+
 # 0.1.2
 
 Description:

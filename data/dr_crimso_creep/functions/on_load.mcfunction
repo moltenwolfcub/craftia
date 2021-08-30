@@ -16,3 +16,4 @@ scoreboard objectives add drcc_snare-show trigger
 
 scoreboard objectives add drcc_beetroot used:beetroot
 scoreboard objectives add drcc_grenadetime dummy
+scoreboard objectives add drcc_offhand dummy
