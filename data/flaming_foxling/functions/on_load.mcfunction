@@ -1,7 +1,7 @@
 team add ff
 team modify ff color red
 team modify ff friendlyFire false
-team modify ff prefix "Flaming Foxling -"
+team modify ff prefix "Flaming Foxling - "
 
 scoreboard objectives add ff_item trigger
 scoreboard objectives add ff_particle trigger

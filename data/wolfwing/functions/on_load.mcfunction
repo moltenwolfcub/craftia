@@ -1,11 +1,11 @@
 team add wwing
 team modify wwing color gold
 team modify wwing friendlyFire false
-team modify wwing prefix "WolfWing -"
+team modify wwing prefix "WolfWing - "
 
 scoreboard objectives add wwing_item trigger
 scoreboard objectives add wwing_ender trigger
-scoreboard objectives add wwing_rockets trigger
+scoreboard objectives add wwing_rocket trigger
 scoreboard objectives add wwing_tool trigger
 scoreboard objectives add wwing_equip trigger
 scoreboard objectives add wwing_particle trigger

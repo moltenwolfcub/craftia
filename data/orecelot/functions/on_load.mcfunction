@@ -1,7 +1,7 @@
 team add orecelot
 team modify orecelot color gold
 team modify ff friendlyFire false
-team modify ff prefix "Orecelot -"
+team modify ff prefix "Orecelot - "
 
 scoreboard objectives add orecelot_item trigger
 scoreboard objectives add orecelot_tool trigger

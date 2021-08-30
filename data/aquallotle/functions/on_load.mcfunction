@@ -1,7 +1,7 @@
 team add aquallotle
 team modify aquallotle color aqua
 team modify aquallotle friendlyFire false
-team modify aquallotle prefix "Aquallotle -"
+team modify aquallotle prefix "Aquallotle - "
 
 scoreboard objectives add aquallotle_tool trigger
 scoreboard objectives add aquallotle_equip trigger

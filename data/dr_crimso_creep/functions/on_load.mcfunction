@@ -1,7 +1,7 @@
 team add drcc
 team modify drcc color dark_green
 team modify drcc friendlyFire false
-team modify drcc prefix "Dr CrimsoCreep -"
+team modify drcc prefix "Dr CrimsoCreep - "
 
 scoreboard objectives add drcc_particle trigger
 scoreboard objectives add drcc_item trigger

@@ -1,7 +1,7 @@
 team add panda
 team modify panda color red
 team modify panda friendlyFire false
-team modify panda prefix "Potion Panda -"
+team modify panda prefix "Potion Panda - "
 
 scoreboard objectives add panda_tool trigger
 scoreboard objectives add panda_item trigger
