@@ -1,3 +1,10 @@
+# 1.2.0
+
+Features:
+- added creator rank
+- added og rank
+
+
 # 1.1.0
 
 Features:

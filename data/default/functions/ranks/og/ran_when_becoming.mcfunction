@@ -1,0 +1,2 @@
+execute as @a[tag=og] if entity @s[tag=!old_og] run tellraw @s [{"selector":"@s","color":"#23D416"},{"text":" , you are OG!","color":"#23D416"}]
+execute as @a[tag=og] if entity @s[tag=!old_og] run tag @s add old_og
