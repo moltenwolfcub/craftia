@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:command_block_minecart"
+        },
+        "title": "Craftian Data pack",
+        "description": "You have the craftian data pack installed!",
+        "announce_to_chat": false,
+        "background": "minecraft:textures/block/raw_gold_block.png",
+        "frame": "goal",
+        "show_toast": false,
+        "hidden": false
+    },
+    "rewards": {},
+    "requirements": [],
+    "criteria": {
+        "tick":{
+            "trigger": "tick",
+            "conditions": {}
+        }
+    }
+}

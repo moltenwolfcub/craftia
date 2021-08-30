@@ -1,0 +1,15 @@
+{
+    "values": [
+        "air",
+        "water_bucket",
+        "#carpets",
+        "#banners",
+        "#buttons",
+        "#rails",
+        "#saplings",
+        "#doors",
+        "#slabs",
+        "#stairs",
+        "#trapdoors"
+    ]
+}

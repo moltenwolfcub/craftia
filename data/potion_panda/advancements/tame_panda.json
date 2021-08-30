@@ -1,0 +1,25 @@
+{
+    "parent": "potion_panda:base",
+    "display": {
+        "icon": {
+            "item": "minecraft:bamboo"
+        },
+        "title": "PANDA Lover!!!",
+        "description": "Feed a panda bamboo"
+    },
+    "criteria": {
+        "tame": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "panda"
+                },
+                "item": {
+                    "items": [
+                        "bamboo"
+                    ]
+                }
+            }
+        }
+    }
+}

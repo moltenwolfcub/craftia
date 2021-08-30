@@ -1,0 +1,25 @@
+{
+    "parent": "default:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:potion"
+        },
+        "title": {
+            "text": "Potion Panda",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Potion Panda Advancements",
+            "color": "dark_purple"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "frame": "challenge"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

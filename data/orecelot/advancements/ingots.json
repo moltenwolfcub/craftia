@@ -1,0 +1,24 @@
+{
+    "parent": "orecelot:nuggets",
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_ingot"
+        },
+        "title": "Special Gold",
+        "description": "Obtain a gold ingot"
+    },
+    "criteria": {
+        "ingot": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "gold_ingot"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "parent": "potion_panda:128_bamboo",
+    "display": {
+        "icon": {
+            "item": "minecraft:bamboo",
+            "nbt": "{Enchantments:[{id:\"mending\",lvl:1}]}"
+        },
+        "title": "The collector",
+        "description": "Get 4 stacks of Bamboo"
+    },
+    "criteria": {
+        "bamboo": {
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {
+        "function": "potion_panda:advancements/576_bamboo"
+    }
+}

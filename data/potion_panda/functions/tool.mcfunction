@@ -1,0 +1,3 @@
+scoreboard players enable @a[tag=panda] panda_tool
+give @a[tag=panda,scores={panda_tool=1}] minecraft:bamboo{Unbreakable:1b,display:{Name:'{"text":"Potion Panda Bamboo Sword"}',Lore:[""]}, Enchantments:[{id:"lure",lvl:5},{id:"sharpness",lvl:5},{id:"smite",lvl:5},{id:"bane_of_arthropods",lvl:5}],AttributeModifiers:[{Slot:"mainhand", AttributeName:"generic.attack_damage", Name:"generic.attack_damage", Amount:10, Operation:0, UUID:[I; -110663, 103297, -1423577, -666666]},{Slot:"mainhand", AttributeName:"generic.attack_speed", Name:"generic.attack_speed", Amount:10, Operation:0, UUID:[I; -110663, 103297, -1423577, -666766]}]}
+scoreboard players set @a[tag=panda,scores={panda_tool=1}] panda_tool 0

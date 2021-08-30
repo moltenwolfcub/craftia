@@ -1,0 +1,31 @@
+{
+    "parent": "potion_panda:16_bamboo",
+    "display": {
+        "icon": {
+            "item": "minecraft:bamboo",
+            "nbt": "{Enchantments:[{id:\"mending\",lvl:1}]}"
+        },
+        "title": "We wants it!",
+        "description": "Get 32 Bamboo"
+    },
+    "criteria": {
+        "bamboo": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "bamboo"
+                        ]
+                    },
+                    {
+                        "count": {
+                            "min": 32,
+                            "max": 640
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

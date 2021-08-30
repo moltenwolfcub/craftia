@@ -1,0 +1,19 @@
+{
+    "parent": "potion_panda:64_bamboo",
+    "display": {
+        "icon": {
+            "item": "minecraft:bamboo",
+            "nbt": "{Enchantments:[{id:\"mending\",lvl:1}]}"
+        },
+        "title": "My Precious!",
+        "description": "Get 2 stacks of Bamboo"
+    },
+    "criteria": {
+        "bamboo": {
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {
+        "function": "potion_panda:advancements/256_bamboo"
+    }
+}

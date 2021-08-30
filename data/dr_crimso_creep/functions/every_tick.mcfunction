@@ -1,0 +1,11 @@
+function dr_crimso_creep:ran_when_becoming
+function dr_crimso_creep:remove_triggers
+
+function dr_crimso_creep:item
+function dr_crimso_creep:redstone
+function dr_crimso_creep:equip
+
+function dr_crimso_creep:particle
+function dr_crimso_creep:peaceful_creepers
+function dr_crimso_creep:grenades
+function dr_crimso_creep:snare

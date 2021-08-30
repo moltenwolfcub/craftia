@@ -1,0 +1,3 @@
+scoreboard players enable @a[tag=drcc] drcc_tool
+give @a[tag=drcc,scores={drcc_tool=1}] minecraft:netherite_sword{Unbreakable:1b,CustomModelData:1,display:{Name:'{"text":"Dr Crimso Creeper Redstone Sword"}'},Enchantments:[{id:"infinity",lvl:5},{id:"sharpness",lvl:5}],AttributeModifiers:[{Slot:"mainhand", AttributeName:"generic.attack_damage", Name:"generic.attack_damage", Amount:10, Operation:0, UUID:[I; -110663, 103297, -1423577, -666666]},{Slot:"mainhand", AttributeName:"generic.attack_speed", Name:"generic.attack_speed", Amount:10, Operation:0, UUID:[I; -110663, 103297, -1423577, -666766]}]}
+scoreboard players set @a[tag=drcc,scores={drcc_tool=1}] drcc_tool 0

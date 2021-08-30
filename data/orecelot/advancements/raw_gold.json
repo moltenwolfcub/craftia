@@ -1,0 +1,24 @@
+{
+    "parent": "orecelot:nuggets",
+    "display": {
+        "icon": {
+            "item": "minecraft:raw_gold"
+        },
+        "title": "Potentially Gold",
+        "description": "Obtain some raw gold"
+    },
+    "criteria": {
+        "nugget": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "raw_gold"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "parent": "default:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "title": {
+            "text": "Flaming Foxling",
+            "color": "red"
+        },
+        "description": {
+            "text": "Flaming Foxling Advancements",
+            "color": "red"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "frame": "challenge"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

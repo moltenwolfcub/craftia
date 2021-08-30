@@ -1,0 +1,29 @@
+{
+    "parent": "flaming_foxling:base",
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "title": "Fire-tipped Blade",
+        "description": "Get a Fire Aspect Sword"
+    },
+    "criteria": {
+        "sword": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "flaming_foxling:swords"
+                    },
+                    {
+                        "enchantments": [
+                            {
+                                "enchantment": "fire_aspect"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "parent": "potion_panda:256_bamboo",
+    "display": {
+        "icon": {
+            "item": "minecraft:bamboo",
+            "nbt": "{Enchantments:[{id:\"mending\",lvl:1}]}"
+        },
+        "title": "Seriously, Enough!",
+        "description": "Get a Hotbar of Bamboo"
+    },
+    "criteria": {
+        "bamboo": {
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {
+        "function": "potion_panda:advancements/2304_bamboo"
+    }
+}

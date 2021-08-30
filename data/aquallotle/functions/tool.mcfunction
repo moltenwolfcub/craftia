@@ -1,0 +1,3 @@
+scoreboard players enable @a[tag=aquallotle] aquallotle_tool
+give @a[tag=aquallotle,scores={aquallotle_tool=1}] minecraft:trident{Unbreakable:1b,display:{Name:'{"text":"Aquallotle Trident"}',Lore:[""]}, Enchantments:[{id:"luck_of_the_sea",lvl:5},{id:"impaling",lvl:20},{id:"loyalty",lvl:5},{id:"channeling",lvl:5}],AttributeModifiers:[{Slot:"mainhand", AttributeName:"generic.attack_damage", Name:"generic.attack_damage", Amount:5, Operation:0, UUID:[I; -110663, 103297, -1423577, -666666]},{Slot:"mainhand", AttributeName:"generic.attack_speed", Name:"generic.attack_speed", Amount:10, Operation:0, UUID:[I; -110663, 103297, -1423577, -666766]}]}
+scoreboard players set @a[tag=aquallotle,scores={aquallotle_tool=1}] aquallotle_tool 0

@@ -1,0 +1,25 @@
+{
+    "parent": "default:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:axolotl_bucket"
+        },
+        "title": {
+            "text": "Aquallotle",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Aquallotle Advancements",
+            "color": "aqua"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "frame": "challenge"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

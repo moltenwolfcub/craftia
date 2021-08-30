@@ -1,0 +1,29 @@
+{
+    "parent": "orecelot:base",
+    "display": {
+        "icon": {
+            "item": "minecraft:jungle_sapling"
+        },
+        "title": "Every Orecelot's Dream",
+        "description": "Obtain a gold ore in a jungle biome"
+    },
+    "criteria": {
+        "ore": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "gold_ore"
+                        ]
+                    }
+                ],
+                "player": {
+                    "location": {
+                        "biome": "jungle"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "values": [
+        "air",
+        "cave_air",
+        "void_air",
+        "water",
+        "#carpets",
+        "#banners",
+        "#buttons",
+        "#crops",
+        "#rails",
+        "#saplings",
+        "#climbable",
+        "#doors",
+        "#slabs",
+        "#stairs",
+        "#trapdoors"
+    ]
+}

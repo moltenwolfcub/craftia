@@ -1,0 +1,31 @@
+{
+    "parent": "potion_panda:base",
+    "display": {
+        "icon": {
+            "item": "minecraft:bamboo",
+            "nbt": "{Enchantments:[{id:\"mending\",lvl:1}]}"
+        },
+        "title": "Bamboo?",
+        "description": "Get a piece of Bamboo"
+    },
+    "criteria": {
+        "bamboo": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "bamboo"
+                        ]
+                    },
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

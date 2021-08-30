@@ -1,0 +1,26 @@
+{
+    "parent": "flaming_foxling:base",
+    "display": {
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "title": "Welcome to the netherhub",
+        "description": "Get to the nether roof"
+    },
+    "criteria": {
+        "roof": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "dimension": "the_nether",
+                    "position": {
+                        "y": {
+                            "min": 128,
+                            "max": 256
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

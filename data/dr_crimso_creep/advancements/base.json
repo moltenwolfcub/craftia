@@ -1,0 +1,25 @@
+{
+    "parent": "default:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "title": {
+            "text": "Dr Crimso Creep",
+            "color": "green"
+        },
+        "description": {
+            "text": "Dr Crimso Creep Advancements",
+            "color": "green"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "frame": "challenge"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

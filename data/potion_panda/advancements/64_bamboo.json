@@ -1,0 +1,34 @@
+{
+    "parent": "potion_panda:32_bamboo",
+    "display": {
+        "icon": {
+            "item": "minecraft:bamboo",
+            "nbt": "{Enchantments:[{id:\"mending\",lvl:1}]}"
+        },
+        "title": "Where Is It! Where Is It",
+        "description": "Get a stack of Bamboo"
+    },
+    "criteria": {
+        "bamboo": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "bamboo"
+                        ]
+                    },
+                    {
+                        "count": {
+                            "min": 64,
+                            "max": 640
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "potion_panda:advancements/128_bamboo"
+    }
+}

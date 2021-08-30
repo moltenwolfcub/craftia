@@ -1,0 +1,25 @@
+{
+    "parent": "default:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_ore"
+        },
+        "title": {
+            "text": "Orecelot",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Orecelot Advancements",
+            "color": "gold"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "frame": "challenge"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

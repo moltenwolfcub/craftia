@@ -1,0 +1,24 @@
+{
+    "parent": "orecelot:ingots",
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_block"
+        },
+        "title": "Premium Gold",
+        "description": "Obtain a gold block"
+    },
+    "criteria": {
+        "block": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "gold_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

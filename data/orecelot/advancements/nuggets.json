@@ -1,0 +1,24 @@
+{
+    "parent": "orecelot:base",
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_nugget"
+        },
+        "title": "Gold",
+        "description": "Obtain a gold nugget"
+    },
+    "criteria": {
+        "nugget": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "gold_nugget"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

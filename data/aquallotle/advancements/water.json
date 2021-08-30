@@ -1,0 +1,18 @@
+{
+    "parent": "aquallotle:base",
+    "display": {
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "title": "Under The Sea",
+        "description": "Step in Water"
+    },
+    "criteria": {
+        "water": {
+            "trigger": "enter_block",
+            "conditions": {
+                "block": "water"
+            }
+        }
+    }
+}

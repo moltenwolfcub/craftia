@@ -1,0 +1,24 @@
+{
+    "parent": "flaming_foxling:base",
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "title": "Blade of the Underworld",
+        "description": "Craft a netherite sword"
+    },
+    "criteria": {
+        "sword": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "netherite_sword"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

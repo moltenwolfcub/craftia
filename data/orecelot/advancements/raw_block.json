@@ -1,0 +1,24 @@
+{
+    "parent": "orecelot:raw_gold",
+    "display": {
+        "icon": {
+            "item": "minecraft:raw_gold_block"
+        },
+        "title": "A lot of Potential",
+        "description": "Obtain a raw gold block"
+    },
+    "criteria": {
+        "nugget": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "raw_gold_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

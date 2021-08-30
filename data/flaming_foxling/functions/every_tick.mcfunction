@@ -1,0 +1,18 @@
+function flaming_foxling:ran_when_becoming
+function flaming_foxling:remove_triggers
+
+function flaming_foxling:item
+function flaming_foxling:tool
+function flaming_foxling:equip
+function flaming_foxling:banner
+function flaming_foxling:banner_head
+
+function flaming_foxling:buff
+function flaming_foxling:nether_buff
+function flaming_foxling:chicken_buff
+function flaming_foxling:offhand_buff
+
+function flaming_foxling:peaceful_blaze
+function flaming_foxling:particle
+function flaming_foxling:fire
+function flaming_foxling:destroy

@@ -1,0 +1,12 @@
+{
+    "values": [
+        "default:every_tick",
+
+        "aquallotle:every_tick",
+        "dr_crimso_creep:every_tick",
+        "flaming_foxling:every_tick",
+        "orecelot:every_tick",
+        "potion_panda:every_tick",
+        "wolfwing:every_tick"
+    ]
+}
