@@ -14,6 +14,10 @@ scoreboard objectives add drcc_snare-set trigger
 scoreboard objectives add drcc_snare-clear trigger
 scoreboard objectives add drcc_snare-show trigger
 
+scoreboard objectives add drcc_nuke-set trigger
+scoreboard objectives add drcc_nuke-remove trigger
+scoreboard objectives add drcc_nuke-launch trigger
+
 scoreboard objectives add drcc_beetroot used:beetroot
 scoreboard objectives add drcc_grenadetime dummy
 scoreboard objectives add drcc_offhand dummy

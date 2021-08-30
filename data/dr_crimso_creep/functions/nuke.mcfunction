@@ -14,7 +14,7 @@ scoreboard players set @a[tag=drcc,scores={drcc_nuke-remove=1..}] drcc_nuke-remo
 execute as @a[tag=drcc,scores={drcc_nuke-launch=1}] run tellraw @s ["",{"text":"Are you sure you want to launch the tactical nukes?","bold":true,"underlined":true,"color":"blue"},"\n",{"text":"Yes","color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger drcc_nuke-launch set 3"}},{"text":"_____No  ","color":"red","clickEvent":{"action":"run_command","value":"/scoreboard players set @s drcc_nuke-launch 0"}}]
 execute as @a[tag=drcc,scores={drcc_nuke-launch=1}] run scoreboard players set @s drcc_nuke-launch 2
 execute as @a[tag=drcc,scores={drcc_nuke-launch=3..}] run title @a title {"text":"Tactical Nuke Incoming","bold":true,"underlined":true,"color":"red"}
-execute as @a[tag=drcc,scores={drcc_nuke-launch=3..}] run playsound drcc.nuke player @a
+execute if entity @a[scores={drcc_nuke-launch = 3}] at @e[type=armor_stand,tag=nuke] run playsound drcc.nuke player @a ~ ~ ~ 5
 
 execute as @a[tag=drcc,scores={drcc_nuke-launch=3..}] run execute as @e[type=minecraft:armor_stand,tag=nuke] at @s run summon minecraft:falling_block ~ ~100 ~ {Tags:["nuke_fall"],Time:18,Motion:[0.0d,-1.5d,0.0d],BlockState: {Name:"minecraft:coal_block"}}
 execute as @a[tag=drcc,scores={drcc_nuke-launch=3..}] run scoreboard players set @s drcc_nuke-launch 0

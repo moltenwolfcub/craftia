@@ -1,3 +1,11 @@
+# 1.0.0
+
+Features:
+- added the sound effect to the nuke
+
+BugFixes:
+- added the scoreboard for drcc_nuke
+
 # 0.1.3
 
 Features:
