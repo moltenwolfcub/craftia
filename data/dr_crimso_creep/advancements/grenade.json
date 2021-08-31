@@ -1,0 +1,16 @@
+{
+    "parent": "dr_crimso_creep:base",
+    "display": {
+        "icon": {
+            "item": "minecraft:snowball",
+            "nbt": "{CustomModelData:1}"
+        },
+        "title": "Grenades",
+        "description": "Launch 100 grenades"
+    },
+    "criteria": {
+        "":{
+            "trigger": "impossible"
+        }
+    }
+}

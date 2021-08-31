@@ -1,0 +1,16 @@
+{
+    "parent": "dr_crimso_creep:grenade",
+    "display": {
+        "icon": {
+            "item": "minecraft:snowball",
+            "nbt": "{CustomModelData:1,Enchantments:[{id:\"power\",lvl:10}]}"
+        },
+        "title": "MORE GRENADES",
+        "description": "Launch 1000 grenades"
+    },
+    "criteria": {
+        "":{
+            "trigger": "impossible"
+        }
+    }
+}

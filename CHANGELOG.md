@@ -16,6 +16,8 @@ Added Features:
 - Panda offhand buff
 - ff fireball staff
 - ff lightning staff
+- orecelot hoe advancement
+- drcc grenade advancements
 
 Changes:
 - made wolfwing crossbow more powerful
