@@ -1,0 +1,25 @@
+{
+    "parent": "orecelot:base",
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_hoe"
+        },
+        "title": "Hoeing in style",
+        "description": "Use a golden hoe",
+        "frame": "goal"
+    },
+    "criteria": {
+        "hoe":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "golden_hoe"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
