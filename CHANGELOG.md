@@ -28,7 +28,7 @@ Changes:
 - changed creator rank to dev
 
 BugFixes:
-- added more blocks that the drcc_grenades can explode on (Now has all logical things begining with A, B and C)
+- added more blocks that the drcc_grenades can explode on (Now has all logical things with a name beginning with letters A-I)
 - Craftia_tag_me now does ranks as well
 - modified og particles to be less laggy
 - Craftia_tag_me was using the name Oliver85 even if you had a different player name.
