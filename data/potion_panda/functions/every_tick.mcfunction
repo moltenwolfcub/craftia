@@ -1,5 +1,5 @@
 function potion_panda:ran_when_becoming
-function potion_panda:remove_triggers
+function potion_panda:trigger_remove
 
 function potion_panda:tool
 function potion_panda:item
