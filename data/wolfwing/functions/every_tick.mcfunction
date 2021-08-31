@@ -1,5 +1,5 @@
 function wolfwing:ran_when_becoming
-function wolfwing:remove_triggers
+function wolfwing:trigger_remove
 
 function wolfwing:buff
 function wolfwing:offhand_buff
