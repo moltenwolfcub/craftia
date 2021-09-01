@@ -18,6 +18,7 @@ Added Features:
 - ff lightning staff
 - orecelot hoe advancement
 - drcc grenade advancements
+- panda trail
 
 Changes:
 - made wolfwing crossbow more powerful
@@ -32,7 +33,6 @@ BugFixes:
 - Craftia_tag_me now does ranks as well
 - modified og particles to be less laggy
 - Craftia_tag_me was using the name Oliver85 even if you had a different player name.
-- The Blade of the Underworld advancement now only gives it to you if you have a regular netherite sword not the drcc or panda ones
 
 # 1.2.0
 

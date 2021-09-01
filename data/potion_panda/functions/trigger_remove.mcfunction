@@ -6,6 +6,7 @@ execute as @a[tag=!panda] run trigger panda_clear set 0
 execute as @a[tag=!panda] run trigger panda_giveme set 0
 execute as @a[tag=!panda] run trigger panda_giveyou set 0
 execute as @a[tag=!panda] run trigger panda_pet set 0
+execute as @a[tag=!panda] run trigger panda_block set 0
 
 execute as @a[tag=!panda] run trigger panda_banner set 0
 execute as @a[tag=!panda] run trigger panda_bannerhead set 0

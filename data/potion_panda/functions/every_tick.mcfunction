@@ -8,6 +8,7 @@ function potion_panda:banner
 function potion_panda:banner_head
 function potion_panda:shield
 function potion_panda:offhand_item
+function potion_panda:block_feet
 
 function potion_panda:effect_me
 function potion_panda:effect_you

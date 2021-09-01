@@ -16,6 +16,10 @@ scoreboard objectives add panda_particle trigger
 scoreboard objectives add panda_pet trigger
 scoreboard objectives add panda_offhand dummy
 
+scoreboard objectives add panda_block trigger
+scoreboard objectives add panda_stand dummy
+scoreboard objectives add panda_shift custom:sneak_time
+
 scoreboard objectives add panda_giveme_set dummy
 scoreboard objectives add panda_giveyo_set dummy
 scoreboard objectives add panda_clear_set dummy
