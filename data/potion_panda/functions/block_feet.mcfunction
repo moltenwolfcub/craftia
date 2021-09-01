@@ -9,7 +9,7 @@ execute at @a[tag=panda,scores={panda_block=6}] run setblock ~ ~-1 ~ yellow_stai
 execute at @a[tag=panda,scores={panda_block=7}] run setblock ~ ~-1 ~ red_stained_glass keep
 execute at @a[tag=panda,scores={panda_block=8}] run setblock ~ ~-1 ~ orange_stained_glass keep
 
-execute as @a[tag=panda,scores={panda_block=6..}] run scoreboard players set @s panda_block 0
+execute as @a[tag=panda,scores={panda_block=9..}] run scoreboard players set @s panda_block 0
 
 execute at @a[tag=panda, scores={panda_block=1..}] if block ~ ~-1 ~ glass run summon armor_stand ~ ~-1 ~ {Tags:["panda_block"], Invisible:1b,NoGravity:1b,Small:1b}
 execute at @a[tag=panda, scores={panda_block=1..}] if block ~ ~-1 ~ light_blue_stained_glass run summon armor_stand ~ ~-1 ~ {Tags:["panda_block"], Invisible:1b,NoGravity:1b,Small:1b}
