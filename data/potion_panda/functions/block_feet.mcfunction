@@ -1,8 +1,8 @@
 scoreboard players enable @a[tag=panda] panda_block
 
 execute at @a[tag=panda,scores={panda_block=1}] run setblock ~ ~-1 ~ glass keep
-execute at @a[tag=panda,scores={panda_block=3}] run setblock ~ ~-1 ~ light_blue_stained_glass keep
-execute at @a[tag=panda,scores={panda_block=2}] run setblock ~ ~-1 ~ blue_stained_glass keep
+execute at @a[tag=panda,scores={panda_block=2}] run setblock ~ ~-1 ~ light_blue_stained_glass keep
+execute at @a[tag=panda,scores={panda_block=3}] run setblock ~ ~-1 ~ blue_stained_glass keep
 execute at @a[tag=panda,scores={panda_block=4}] run setblock ~ ~-1 ~ purple_stained_glass keep
 execute at @a[tag=panda,scores={panda_block=5}] run setblock ~ ~-1 ~ lime_stained_glass keep
 execute at @a[tag=panda,scores={panda_block=6}] run setblock ~ ~-1 ~ yellow_stained_glass keep
