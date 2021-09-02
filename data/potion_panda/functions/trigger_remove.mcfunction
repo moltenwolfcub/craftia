@@ -7,10 +7,11 @@ execute as @a[tag=!panda] run trigger panda_giveme set 0
 execute as @a[tag=!panda] run trigger panda_giveyou set 0
 execute as @a[tag=!panda] run trigger panda_pet set 0
 execute as @a[tag=!panda] run trigger panda_block set 0
-
 execute as @a[tag=!panda] run trigger panda_banner set 0
 execute as @a[tag=!panda] run trigger panda_bannerhead set 0
 execute as @a[tag=!panda] run trigger panda_shield set 0
 execute as @a[tag=!panda] run trigger panda_item set 0
+execute as @a[tag=!panda] run trigger panda_cannon_get set 0
+execute as @a[tag=!panda] run trigger panda_cannon_mod set 0
 
 execute as @a[tag=!panda] run tag @s remove old_panda

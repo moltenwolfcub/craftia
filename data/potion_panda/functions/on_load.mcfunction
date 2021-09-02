@@ -20,6 +20,9 @@ scoreboard objectives add panda_block trigger
 scoreboard objectives add panda_stand dummy
 scoreboard objectives add panda_shift custom:sneak_time
 
+scoreboard objectives add panda_cannon_get trigger
+scoreboard objectives add panda_cannon_mod trigger
+
 scoreboard objectives add panda_giveme_set dummy
 scoreboard objectives add panda_giveyo_set dummy
 scoreboard objectives add panda_clear_set dummy

@@ -9,11 +9,11 @@ function potion_panda:banner_head
 function potion_panda:shield
 function potion_panda:offhand_item
 function potion_panda:block_feet
+function potion_panda:peaceful_panda
+function potion_panda:particle
+function potion_panda:pet
+function potion_panda:potion_cannon
 
 function potion_panda:effect_me
 function potion_panda:effect_you
 function potion_panda:clear
-
-function potion_panda:peaceful_panda
-function potion_panda:particle
-function potion_panda:pet
