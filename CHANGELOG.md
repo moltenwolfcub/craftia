@@ -19,6 +19,7 @@ Added Features:
 - orecelot hoe advancement
 - drcc grenade advancements
 - panda trail
+- panda potion cannon
 
 Changes:
 - made wolfwing crossbow more powerful
