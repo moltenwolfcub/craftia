@@ -20,6 +20,7 @@ Added Features:
 - drcc grenade advancements
 - panda trail
 - panda potion cannon
+- added hat rank
 
 Changes:
 - made wolfwing crossbow more powerful
