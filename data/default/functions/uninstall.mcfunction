@@ -166,6 +166,7 @@ scoreboard objectives remove skeleton_kills
 
 scoreboard objectives remove dev_block
 scoreboard objectives remove og_particle
+scoreboard objectives remove hat_get
 
 #endregion
 

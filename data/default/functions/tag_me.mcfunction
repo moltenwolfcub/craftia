@@ -11,6 +11,8 @@ tellraw @a[scores={craftia_tag_me=1..},name="HannahLizzieLou"] {"text":"Accordin
 tag @a[scores={craftia_tag_me=1..},name="HannahLizzieLou"] add panda
 tellraw @a[scores={craftia_tag_me=1..},name="HannahLizzieLou"] {"text":"According to our Craftia database the player name HannahLizzieLou is an Original Craftian.","color":"gold"}
 tag @a[scores={craftia_tag_me=1..},name="HannahLizzieLou"] add og
+tellraw @a[scores={craftia_tag_me=1..},name="HannahLizzieLou"] {"text":"According to our Craftia database the player name HannahLizzieLou came up with the idea of hats.","color":"gold"}
+tag @a[scores={craftia_tag_me=1..},name="HannahLizzieLou"] add hat
 
 tellraw @a[scores={craftia_tag_me=1..},name="PeachPeak"] {"text":"According to our Craftia database the player name PeachPeak is a Flaming Foxling","color":"gold"}
 tag @a[scores={craftia_tag_me=1..},name="PeachPeak"] add ff
