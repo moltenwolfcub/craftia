@@ -40,3 +40,5 @@ execute at @e[scores={panda_cannon_mod=32},tag=panda,nbt={SelectedItem:{id:"mine
 
 execute as @e[type=minecraft:potion] at @s run data modify entity @s Motion set from entity @e[type=minecraft:arrow,distance=0,limit=1] Motion
 execute as @e[type=minecraft:potion] at @s run kill @e[type=minecraft:arrow,distance=0,limit=1]
+
+execute as @a[tag=panda] if entity @s[nbt={SelectedItem:{id: "minecraft:crossbow",tag: {CustomModelData:2}}}] unless entity @s[nbt={Inventory:[{"id":"minecraft:arrow"}]}] run item replace entity @s inventory.0 with minecraft:arrow 64
