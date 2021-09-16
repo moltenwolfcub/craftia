@@ -1,5 +1,5 @@
 function aquallotle:ran_when_becoming
-function aquallotle:remove_triggers
+function aquallotle:trigger_remove
 
 function aquallotle:tool
 function aquallotle:armor

@@ -1,5 +1,5 @@
 function dr_crimso_creep:ran_when_becoming
-function dr_crimso_creep:remove_triggers
+function dr_crimso_creep:trigger_remove
 
 function dr_crimso_creep:item
 function dr_crimso_creep:redstone

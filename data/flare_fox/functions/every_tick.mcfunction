@@ -1,5 +1,5 @@
 function flare_fox:ran_when_becoming
-function flare_fox:remove_triggers
+function flare_fox:trigger_remove
 
 function flare_fox:item
 function flare_fox:tool

@@ -1,4 +1,4 @@
-function orecelot:remove_triggers
+function orecelot:trigger_remove
 function orecelot:ran_when_becoming
 
 function orecelot:item
