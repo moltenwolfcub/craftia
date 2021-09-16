@@ -13,7 +13,7 @@ This is a datapack for the craftia group. There are currently 6 people in it inc
 - Potion Panda
 
 
-To become one of these characters do one of these two things:
+To become one of these Craftians do one of these two things:
 Firstly try this, run the command `/trigger craftia_tag_me` and it will make you one of them if your minecraft username is setup in the code.
 If the previous method didn't work then you will have to have admin to become one of them. In chat run `/tag @s add ` and then the special code for each craftian.
 
