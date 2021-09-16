@@ -4,6 +4,10 @@ function aquallotle:remove_triggers
 function aquallotle:tool
 function aquallotle:armor
 function aquallotle:item
+function aquallotle:shield
+function aquallotle:banner_head
+function aquallotle:banner
+
 
 function aquallotle:peaceful_drowned
 function aquallotle:particle

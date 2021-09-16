@@ -6,6 +6,9 @@ team modify aquallotle prefix "Aquallotle - "
 scoreboard objectives add aquallotle_tool trigger
 scoreboard objectives add aquallotle_equip trigger
 scoreboard objectives add aquallotle_item trigger
+scoreboard objectives add aquallotle_baner trigger
+scoreboard objectives add aquallotle_head trigger
+scoreboard objectives add aquallotle_shiel trigger
 
 scoreboard objectives add aquallotle_drops trigger
 scoreboard objectives add aquallotle_block trigger
