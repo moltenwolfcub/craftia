@@ -2,7 +2,7 @@
 #region aquallotle
 
 tag @a remove aquallotle
-function aquallotle:remove_triggers
+function aquallotle:trigger_remove
 
 team remove aquallotle
 
@@ -19,12 +19,17 @@ scoreboard objectives remove aquallotle_water
 scoreboard objectives remove aquallotle_death
 scoreboard objectives remove aquallotle_bottl
 scoreboard objectives remove aquallotle_boots
+scoreboard objectives remove aquallotle_baner
+scoreboard objectives remove aquallotle_head
+scoreboard objectives remove aquallotle_shiel
+scoreboard objectives remove aquallotle_shift
+scoreboard objectives remove aquallotle_stand
 
 #endregion
 #region drcc
 
 tag @a remove drcc
-function dr_crimso_creep:remove_triggers
+function dr_crimso_creep:trigger_remove
 
 team remove drcc
 
@@ -44,12 +49,17 @@ scoreboard objectives remove drcc_snare-set
 scoreboard objectives remove drcc_snare-show
 scoreboard objectives remove drcc_tool
 scoreboard objectives remove drcc_troll_sound
+scoreboard objectives remove drcc_banner
+scoreboard objectives remove drcc_bannerhead
+scoreboard objectives remove drcc_shield
+
+scoreboard objectives remove grenade_launched
 
 #endregion
 #region ff
 
 tag @a remove ff
-function flare_fox:remove_triggers
+function flare_fox:trigger_remove
 
 team remove ff
 
@@ -70,12 +80,13 @@ scoreboard objectives remove ff_shield
 scoreboard objectives remove ff_fireball
 scoreboard objectives remove ff_lightning
 scoreboard objectives remove ff_carrot
+scoreboard objectives remove ff_feet
 
 #endregion
 #region orecelot
 
 tag @a remove orecelot
-function orecelot:remove_triggers
+function orecelot:trigger_remove
 
 team remove orecelot
 
@@ -95,7 +106,7 @@ scoreboard objectives remove orecelot_unfreez
 #region panda
 
 tag @a remove panda
-function potion_panda:remove_triggers
+function potion_panda:trigger_remove
 
 team remove panda
 
@@ -114,12 +125,18 @@ scoreboard objectives remove panda_item
 scoreboard objectives remove panda_particle
 scoreboard objectives remove panda_tool
 scoreboard objectives remove panda_pet
+scoreboard objectives remove panda_stand
+scoreboard objectives remove panda_cannon_get
+scoreboard objectives remove panda_cannon_mod
+scoreboard objectives remove panda_offhand
+scoreboard objectives remove panda_shift
+scoreboard objectives remove panda_block
 
 #endregion
 #region wwing
 
 tag @a remove wwing
-function wolfwing:remove_triggers
+function wolfwing:trigger_remove
 
 team remove wwing
 
