@@ -5,6 +5,9 @@ function dr_crimso_creep:item
 function dr_crimso_creep:redstone
 function dr_crimso_creep:equip
 function dr_crimso_creep:tool
+function dr_crimso_creep:shield
+function dr_crimso_creep:banner_head
+function dr_crimso_creep:banner
 
 function dr_crimso_creep:particle
 function dr_crimso_creep:peaceful_creepers

@@ -6,11 +6,9 @@ Added Features:
 - added drcc troll sound
 - added Flare Fox stuff for the mooshroom biome
 - added panda custom food
-- added wwing banner
-- added shields for wwing, ff and panda
+- added shields and banners for wwing, ff, aquallotle, drcc and panda
 - added currency
 - added crafton shop
-- added Flare Fox Ultimate Destruction sound
 - aquallotle dies if out of water for too long
 - aquallotle can now have frost walker boots
 - Panda offhand buff
