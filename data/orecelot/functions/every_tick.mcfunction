@@ -4,6 +4,9 @@ function orecelot:ran_when_becoming
 function orecelot:item
 function orecelot:tool
 function orecelot:equip
+function orecelot:banner
+function orecelot:banner_head
+function orecelot:shield
 
 function orecelot:underground_buff
 function orecelot:offhand_buff
