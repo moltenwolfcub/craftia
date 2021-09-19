@@ -26,3 +26,5 @@ The codes are as follows:
 - Potion Panda = `panda`
 
 Say for instance you wanted to become WolfWing you would run `/tag @s add wwing`.
+
+Don't become multiple people at once as it gets weird with commands. Run `/tag @s remove ` and then the special code.
