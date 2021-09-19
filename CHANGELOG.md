@@ -1,7 +1,7 @@
 # 1.3.0 (Unreleased)
 
 Added Features:
-- added wolfwing, Potion Panda and Flare Fox pets
+- added wolfwing, Potion Panda, Orecelot and Flare Fox pets
 - added wolfwing fly sound
 - added drcc troll sound
 - added Flare Fox stuff for the mooshroom biome

@@ -16,3 +16,4 @@ function orecelot:particles
 function orecelot:ore_gen
 function orecelot:speed_on_ores
 function orecelot:guard
+function orecelot:pet

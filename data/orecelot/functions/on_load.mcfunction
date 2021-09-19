@@ -12,6 +12,7 @@ scoreboard objectives add orecelot_banner trigger
 
 scoreboard objectives add orecelot_particl trigger
 scoreboard objectives add orecelot_oregen trigger
+scoreboard objectives add orecelot_pet trigger
 scoreboard objectives add orecelot_timer dummy
 scoreboard objectives add orecelot_feet dummy
 scoreboard objectives add orecelot_offhand dummy

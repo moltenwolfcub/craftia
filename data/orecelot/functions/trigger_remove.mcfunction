@@ -6,5 +6,9 @@ execute as @a[tag=!orecelot] run trigger orecelot_equip set 0
 execute as @a[tag=!orecelot] run trigger orecelot_guard set 0
 execute as @a[tag=!orecelot] run trigger orecelot_unfreez set 0
 execute as @a[tag=!orecelot] run trigger orecelot_kill set 0
+execute as @a[tag=!orecelot] run trigger orecelot_banner set 0
+execute as @a[tag=!orecelot] run trigger orecelot_head set 0
+execute as @a[tag=!orecelot] run trigger orecelot_shield set 0
+execute as @a[tag=!orecelot] run trigger orecelot_pet set 0
 
 execute as @a[tag=!orecelot] run tag @s remove old_orecelot
