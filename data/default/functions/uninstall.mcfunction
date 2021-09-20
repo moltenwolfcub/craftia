@@ -24,6 +24,7 @@ scoreboard objectives remove aquallotle_head
 scoreboard objectives remove aquallotle_shiel
 scoreboard objectives remove aquallotle_shift
 scoreboard objectives remove aquallotle_stand
+scoreboard objectives remove aquallotle_petgo
 
 #endregion
 #region drcc
@@ -52,6 +53,8 @@ scoreboard objectives remove drcc_troll_sound
 scoreboard objectives remove drcc_banner
 scoreboard objectives remove drcc_bannerhead
 scoreboard objectives remove drcc_shield
+scoreboard objectives remove drcc_pet-remove
+scoreboard objectives remove drcc_pet
 
 scoreboard objectives remove grenade_launched
 
@@ -81,6 +84,7 @@ scoreboard objectives remove ff_fireball
 scoreboard objectives remove ff_lightning
 scoreboard objectives remove ff_carrot
 scoreboard objectives remove ff_feet
+scoreboard objectives remove ff_pet-remove
 
 #endregion
 #region orecelot
@@ -101,6 +105,11 @@ scoreboard objectives remove orecelot_particl
 scoreboard objectives remove orecelot_timer
 scoreboard objectives remove orecelot_tool
 scoreboard objectives remove orecelot_unfreez
+scoreboard objectives remove orecelot_shield
+scoreboard objectives remove orecelot_pet-go
+scoreboard objectives remove orecelot_head
+scoreboard objectives remove orecelot_pet
+scoreboard objectives remove orecelot_banner
 
 #endregion
 #region panda
@@ -131,6 +140,7 @@ scoreboard objectives remove panda_cannon_mod
 scoreboard objectives remove panda_offhand
 scoreboard objectives remove panda_shift
 scoreboard objectives remove panda_block
+scoreboard objectives remove panda_pet-remove
 
 #endregion
 #region wwing
@@ -158,6 +168,7 @@ scoreboard objectives remove wwing_pet
 scoreboard objectives remove wwing_banner
 scoreboard objectives remove wwing_bannerhead
 scoreboard objectives remove wwing_shield
+scoreboard objectives remove wwing_pet-remove
 
 #endregion
 #region default
