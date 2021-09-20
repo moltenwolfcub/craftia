@@ -15,6 +15,7 @@ scoreboard objectives add wwing_shadow trigger
 scoreboard objectives add wwing_nether trigger
 scoreboard objectives add wwing_fly trigger
 scoreboard objectives add wwing_pet trigger
+scoreboard objectives add wwing_pet-remove trigger
 scoreboard objectives add wwing_banner trigger
 scoreboard objectives add wwing_bannerhead trigger
 scoreboard objectives add wwing_shield trigger

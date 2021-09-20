@@ -15,6 +15,7 @@ scoreboard objectives add aquallotle_block trigger
 scoreboard objectives add aquallotle_stand dummy
 scoreboard objectives add aquallotle_shift custom:sneak_time
 scoreboard objectives add aquallotle_pet trigger
+scoreboard objectives add aquallotle_petgo trigger
 
 scoreboard objectives add aquallotle_water dummy
 scoreboard objectives add aquallotle_bucke dummy
