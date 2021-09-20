@@ -8,6 +8,7 @@ execute as @a[tag=!ff] run trigger ff_particle set 0
 execute as @a[tag=!ff] run trigger ff_banner set 0
 execute as @a[tag=!ff] run trigger ff_banner-head set 0
 execute as @a[tag=!ff] run trigger ff_pet set 0
+execute as @a[tag=!ff] run trigger ff_pet-remove set 0
 execute as @a[tag=!ff] run trigger ff_shield set 0
 execute as @a[tag=!ff] run trigger ff_fireball set 0
 execute as @a[tag=!ff] run trigger ff_lightning set 0
