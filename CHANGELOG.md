@@ -21,6 +21,7 @@ Added Features:
 - added hat rank
 
 Changes:
+- drcc advancement "Ever Heard Of A Nuke?" --> "DETONATE!!!"
 - made wolfwing crossbow more powerful
 - made wolfwing arrows into tipped arrows
 - Flaming Foxling is now Flare Fox
