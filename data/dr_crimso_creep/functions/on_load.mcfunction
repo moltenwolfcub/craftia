@@ -22,9 +22,9 @@ scoreboard objectives add drcc_nuke-launch trigger
 
 scoreboard objectives add drcc_particle trigger
 scoreboard objectives add drcc_troll_sound trigger
+scoreboard objectives add drcc_pet trigger
 
 scoreboard objectives add drcc_beetroot used:beetroot
 scoreboard objectives add drcc_grenadetime dummy
 scoreboard objectives add drcc_offhand dummy
-
 scoreboard objectives add grenade_launched dummy

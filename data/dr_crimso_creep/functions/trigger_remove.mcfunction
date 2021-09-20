@@ -14,5 +14,6 @@ execute as @a[tag=!drcc] run trigger drcc_troll_sound set 0
 execute as @a[tag=!drcc] run trigger drcc_banner set 0
 execute as @a[tag=!drcc] run trigger drcc_bannerhead set 0
 execute as @a[tag=!drcc] run trigger drcc_shield set 0
+execute as @a[tag=!drcc] run trigger drcc_pet set 0
 
 execute as @a[tag=!drcc] run tag @s remove old_drcc
