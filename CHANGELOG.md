@@ -19,6 +19,7 @@ Added Features:
 - panda trail
 - panda potion cannon
 - added hat rank
+- Pet Remove Feature
 
 Changes:
 - drcc advancement "Ever Heard Of A Nuke?" --> "DETONATE!!!"
