@@ -7,6 +7,7 @@ function aquallotle:item
 function aquallotle:shield
 function aquallotle:banner_head
 function aquallotle:banner
+function aquallotle:bubble_cannon/main
 
 
 function aquallotle:peaceful_drowned
