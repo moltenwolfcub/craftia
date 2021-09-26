@@ -20,6 +20,7 @@ Added Features:
 - panda potion cannon
 - added hat rank
 - Pet Remove Feature
+- aquallotle bubble cannon
 
 Changes:
 - drcc advancement "Ever Heard Of A Nuke?" --> "DETONATE!!!"
