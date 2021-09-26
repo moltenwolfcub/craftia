@@ -25,6 +25,7 @@ scoreboard objectives remove aquallotle_shiel
 scoreboard objectives remove aquallotle_shift
 scoreboard objectives remove aquallotle_stand
 scoreboard objectives remove aquallotle_petgo
+scoreboard objectives remove aquallotle_canon
 
 #endregion
 #region drcc
