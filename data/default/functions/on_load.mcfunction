@@ -10,6 +10,8 @@ scoreboard objectives add dev_block trigger
 scoreboard objectives add og_particle trigger
 
 scoreboard objectives add hat_get trigger
+scoreboard objectives add hat_glasses_get trigger
+scoreboard objectives add hat_craftia_get trigger
 
 
 scoreboard objectives add craftia_take_1 trigger
