@@ -1,4 +1,17 @@
-# 1.3.0 (Unreleased)
+# Unreleased
+
+Added Features:
+- added hat_craftia_get
+- added hat_glasses_get
+- added hat_accesory_get
+
+Changes:
+- Moved some hats from main get to accesory_get
+
+BugFixes:
+- Added new triggers to the uninstall file
+
+# 1.3.0
 
 Added Features:
 - added wolfwing, Potion Panda, Orecelot and Flare Fox pets

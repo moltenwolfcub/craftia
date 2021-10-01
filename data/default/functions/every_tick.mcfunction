@@ -14,6 +14,7 @@ function default:ranks/hat/remove_triggers
 function default:ranks/hat/get
 function default:ranks/hat/glasses_get
 function default:ranks/hat/craftia_get
+function default:ranks/hat/accessories_get
 
 
 function default:currency/daily_money

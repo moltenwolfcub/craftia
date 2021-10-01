@@ -194,8 +194,13 @@ scoreboard objectives remove zombie_kills
 scoreboard objectives remove skeleton_kills
 
 scoreboard objectives remove dev_block
+
 scoreboard objectives remove og_particle
+
 scoreboard objectives remove hat_get
+scoreboard objectives remove hat_accesory_get
+scoreboard objectives remove hat_glasses_get
+scoreboard objectives remove hat_craftia_get
 
 #endregion
 
