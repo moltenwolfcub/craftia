@@ -5,6 +5,11 @@ Added Features:
 - added hat_glasses_get
 - added hat_accesory_get
 
+- added cowboy_hat
+- added Potion_panda hat
+- added basic_glasses
+- added eco_friendly_glasses
+
 Changes:
 - Moved some hats from main get to accesory_get
 
