@@ -142,6 +142,7 @@ scoreboard objectives remove panda_offhand
 scoreboard objectives remove panda_shift
 scoreboard objectives remove panda_block
 scoreboard objectives remove panda_pet-remove
+scoreboard objectives remove panda_hat
 
 #endregion
 #region wwing

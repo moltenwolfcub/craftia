@@ -14,5 +14,6 @@ execute as @a[tag=!panda] run trigger panda_shield set 0
 execute as @a[tag=!panda] run trigger panda_item set 0
 execute as @a[tag=!panda] run trigger panda_cannon_get set 0
 execute as @a[tag=!panda] run trigger panda_cannon_mod set 0
+execute as @a[tag=!panda] run trigger panda_hat set 0
 
 execute as @a[tag=!panda] run tag @s remove old_panda

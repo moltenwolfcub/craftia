@@ -13,6 +13,7 @@ function potion_panda:peaceful_panda
 function potion_panda:particle
 function potion_panda:pet
 function potion_panda:potion_cannon
+function potion_panda:hat
 
 function potion_panda:effect_me
 function potion_panda:effect_you

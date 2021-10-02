@@ -16,6 +16,7 @@ scoreboard objectives add panda_particle trigger
 scoreboard objectives add panda_pet trigger
 scoreboard objectives add panda_pet-remove trigger
 scoreboard objectives add panda_offhand dummy
+scoreboard objectives add panda_hat trigger
 
 scoreboard objectives add panda_block trigger
 scoreboard objectives add panda_stand dummy
