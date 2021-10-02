@@ -7,6 +7,7 @@ Added Features:
 
 - added cowboy_hat
 - added cap
+- added sombrero
 - added Potion_panda hat
 - added basic_glasses
 - added eco_friendly_glasses
