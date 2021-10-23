@@ -12,6 +12,8 @@ Added Features:
 - added basic_glasses
 - added eco_friendly_glasses
 
+- wwing elytra break advancement
+
 Changes:
 - Moved some hats from main get to accesory_get
 

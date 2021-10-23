@@ -1,0 +1,34 @@
+{
+    "parent": "wolfwing:base",
+    "criteria": {
+        "criteria_name": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:elytra"
+                        ],
+                        "durability": 1
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra",
+            "nbt": "{Enchantments:[{id:\"mending\", lvl:100}]}"
+        },
+        "title": "Broken Wings",
+        "description": "Break an elytra"
+    },
+    "requirements": [
+        [
+        "criteria_name"
+        ]
+    ],
+    "rewards": {
+        "experience": 100
+    }
+}
