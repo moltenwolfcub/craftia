@@ -9,6 +9,7 @@ Added Features:
 - added cap
 - added sombrero
 - added Potion_panda hat
+- added Flare_Fox hat
 - added basic_glasses
 - added eco_friendly_glasses
 
