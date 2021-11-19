@@ -7,6 +7,7 @@ function flare_fox:equip
 function flare_fox:banner
 function flare_fox:banner_head
 function flare_fox:shield
+function flare_fox:hat
 function flare_fox:fireball
 function flare_fox:lightning
 scoreboard players set @a[scores={ff_carrot=1..}] ff_carrot 0

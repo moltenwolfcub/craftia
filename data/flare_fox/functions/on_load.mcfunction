@@ -10,6 +10,7 @@ scoreboard objectives add ff_tool trigger
 scoreboard objectives add ff_banner trigger
 scoreboard objectives add ff_banner-head trigger
 scoreboard objectives add ff_shield trigger
+scoreboard objectives add ff_hat trigger
 scoreboard objectives add ff_fire trigger
 scoreboard objectives add ff_destroy trigger
 scoreboard objectives add ff_pet trigger
