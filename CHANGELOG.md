@@ -5,11 +5,13 @@ Added Features:
 - added hat_glasses_get
 - added hat_accesory_get
 
+- added Potion_panda hat
+- added Flare_Fox hat
+- added Orecelot hat
+
 - added cowboy_hat
 - added cap
 - added sombrero
-- added Potion_panda hat
-- added Flare_Fox hat
 - added basic_glasses
 - added eco_friendly_glasses
 

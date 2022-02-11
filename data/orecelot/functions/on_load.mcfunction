@@ -9,6 +9,7 @@ scoreboard objectives add orecelot_equip trigger
 scoreboard objectives add orecelot_shield trigger
 scoreboard objectives add orecelot_head trigger
 scoreboard objectives add orecelot_banner trigger
+scoreboard objectives add orecelot_hat trigger
 
 scoreboard objectives add orecelot_particl trigger
 scoreboard objectives add orecelot_oregen trigger

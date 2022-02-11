@@ -7,6 +7,7 @@ function orecelot:equip
 function orecelot:banner
 function orecelot:banner_head
 function orecelot:shield
+function orecelot:hat
 
 function orecelot:underground_buff
 function orecelot:offhand_buff
