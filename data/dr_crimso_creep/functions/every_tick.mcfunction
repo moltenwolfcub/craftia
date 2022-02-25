@@ -8,6 +8,7 @@ function dr_crimso_creep:tool
 function dr_crimso_creep:shield
 function dr_crimso_creep:banner_head
 function dr_crimso_creep:banner
+function dr_crimso_creep:hat
 
 function dr_crimso_creep:particle
 function dr_crimso_creep:peaceful_creepers

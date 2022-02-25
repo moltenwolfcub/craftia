@@ -11,6 +11,7 @@ scoreboard objectives add drcc_tool trigger
 scoreboard objectives add drcc_banner trigger
 scoreboard objectives add drcc_bannerhead trigger
 scoreboard objectives add drcc_shield trigger
+scoreboard objectives add drcc_hat trigger
 
 scoreboard objectives add drcc_snare-set trigger
 scoreboard objectives add drcc_snare-clear trigger

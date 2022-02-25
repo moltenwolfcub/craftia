@@ -8,6 +8,7 @@ Added Features:
 - added Potion_panda hat
 - added Flare_Fox hat
 - added Orecelot hat
+- added Dr Dr_crimso_creep hat
 
 - added cowboy_hat
 - added cap
