@@ -10,6 +10,7 @@ scoreboard objectives add aquallotle_baner trigger
 scoreboard objectives add aquallotle_head trigger
 scoreboard objectives add aquallotle_shiel trigger
 scoreboard objectives add aquallotle_canon trigger
+scoreboard objectives add aquallotle_hat trigger
 
 scoreboard objectives add aquallotle_drops trigger
 scoreboard objectives add aquallotle_block trigger

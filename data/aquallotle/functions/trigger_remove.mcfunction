@@ -11,6 +11,7 @@ execute as @a[tag=!aquallotle] run trigger aquallotle_head set 0
 execute as @a[tag=!aquallotle] run trigger aquallotle_baner set 0
 execute as @a[tag=!aquallotle] run trigger aquallotle_shiel set 0
 execute as @a[tag=!aquallotle] run trigger aquallotle_canon set 0
+execute as @a[tag=!aquallotle] run trigger aquallotle_hat set 0
 
 attribute @a[limit=1,tag=!aquallotle] minecraft:generic.attack_damage modifier remove f81d4fae-7dec-11d1-a865-03f0c95e6bf7
 attribute @a[limit=1,tag=!aquallotle] minecraft:generic.attack_speed modifier remove f81d4fae-7dec-11d1-a865-03f0c95e6bf7
