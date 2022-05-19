@@ -19,6 +19,7 @@ scoreboard objectives add wwing_pet-remove trigger
 scoreboard objectives add wwing_banner trigger
 scoreboard objectives add wwing_bannerhead trigger
 scoreboard objectives add wwing_shield trigger
+scoreboard objectives add wwing_hat trigger
 
 scoreboard objectives add wwing_offhand dummy
 scoreboard objectives add wwing_inshadow dummy

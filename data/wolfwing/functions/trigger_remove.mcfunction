@@ -14,5 +14,6 @@ execute as @a[tag=!wwing] run trigger wwing_pet-remove set 0
 execute as @a[tag=!wwing] run trigger wwing_banner set 0
 execute as @a[tag=!wwing] run trigger wwing_bannerhead set 0
 execute as @a[tag=!wwing] run trigger wwing_shield set 0
+execute as @a[tag=!wwing] run trigger wwing_hat set 0
 
 execute as @a[tag=!wwing] run tag @s remove old_wwing

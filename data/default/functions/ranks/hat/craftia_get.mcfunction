@@ -10,5 +10,7 @@ item replace entity @a[tag=hat,scores={hat_craftia_get=3}] armor.head with carve
 item replace entity @a[tag=hat,scores={hat_craftia_get=4}] armor.head with carved_pumpkin{CustomModelData:4}
 # aquallotle
 item replace entity @a[tag=hat,scores={hat_craftia_get=5}] armor.head with carved_pumpkin{CustomModelData:5}
+# wwing
+item replace entity @a[tag=hat,scores={hat_craftia_get=6}] armor.head with carved_pumpkin{CustomModelData:6}
 
 scoreboard players set @a[tag=hat,scores={hat_craftia_get=1..}] hat_craftia_get 0
