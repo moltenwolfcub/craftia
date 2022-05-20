@@ -1,4 +1,4 @@
-# Unreleased
+# 1.3.1
 
 Added Features:
 - added hat_craftia_get
@@ -9,6 +9,8 @@ Added Features:
 - added Flare_Fox hat
 - added Orecelot hat
 - added Dr Dr_crimso_creep hat
+- added Aquallotle hat
+- added WolfWing hat
 
 - added cowboy_hat
 - added cap
