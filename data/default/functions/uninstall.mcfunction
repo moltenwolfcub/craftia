@@ -26,6 +26,7 @@ scoreboard objectives remove aquallotle_shift
 scoreboard objectives remove aquallotle_stand
 scoreboard objectives remove aquallotle_petgo
 scoreboard objectives remove aquallotle_canon
+scoreboard objectives remove aquallotle_hat
 
 #endregion
 #region drcc
@@ -56,6 +57,7 @@ scoreboard objectives remove drcc_bannerhead
 scoreboard objectives remove drcc_shield
 scoreboard objectives remove drcc_pet-remove
 scoreboard objectives remove drcc_pet
+scoreboard objectives remove drcc_hat
 
 scoreboard objectives remove grenade_launched
 
@@ -86,6 +88,7 @@ scoreboard objectives remove ff_lightning
 scoreboard objectives remove ff_carrot
 scoreboard objectives remove ff_feet
 scoreboard objectives remove ff_pet-remove
+scoreboard objectives remove ff_hat
 
 #endregion
 #region orecelot
@@ -111,6 +114,7 @@ scoreboard objectives remove orecelot_pet-go
 scoreboard objectives remove orecelot_head
 scoreboard objectives remove orecelot_pet
 scoreboard objectives remove orecelot_banner
+scoreboard objectives remove orecelot_hat
 
 #endregion
 #region panda
@@ -171,6 +175,7 @@ scoreboard objectives remove wwing_banner
 scoreboard objectives remove wwing_bannerhead
 scoreboard objectives remove wwing_shield
 scoreboard objectives remove wwing_pet-remove
+scoreboard objectives remove wwing_hat
 
 #endregion
 #region default
@@ -193,6 +198,9 @@ scoreboard objectives remove craftia_shop
 scoreboard objectives remove craftia_trigger
 scoreboard objectives remove zombie_kills
 scoreboard objectives remove skeleton_kills
+
+#endregion
+#region ranks
 
 scoreboard objectives remove dev_block
 

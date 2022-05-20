@@ -12,6 +12,7 @@ function wolfwing:equip
 function wolfwing:banner
 function wolfwing:banner_head
 function wolfwing:shield
+function wolfwing:hat
 
 function wolfwing:peacful_wolves_endermen
 function wolfwing:particle
