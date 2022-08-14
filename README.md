@@ -6,7 +6,7 @@
 
 If you already have the datapack installed on a world run `/function default:uninstall` before updating to a future version.
 
-This is a datapack for the craftia group. There are currently 6 people in it including:
+This is a datapack adding 6 uniquely themed characters who all have their own custom items, tools and abilities:
 - WolfWing
 - FlareFox
 - Orecelot

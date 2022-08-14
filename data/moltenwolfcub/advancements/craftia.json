@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:command_block_minecart",
+            "nbt": "{CustomModelData:1}"
+        },
+        "title": {
+            "text": "The Craftia Datapack",
+            "bold": true,
+            "italic": true,
+            "color": "gold"
+        },
+        "description":{
+            "text": "Adds 6 themed characters who all have special abilities",
+            "italic": true,
+            "color": "green"
+        },
+        "frame": "challenge",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "moltenwolfcub:root",
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    },
+    "requirements": [
+        [
+            "tick"
+        ]
+    ]
+}

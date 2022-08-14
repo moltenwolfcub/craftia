@@ -1,6 +1,7 @@
 # unreleased
 
 ## Added Features:
+- Added MoltenWolfCub advancments
 
 ## Changes:
 - Combined Resourcepack and Datapack into one file/project

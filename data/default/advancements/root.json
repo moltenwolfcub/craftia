@@ -1,7 +1,8 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:command_block_minecart"
+            "item": "minecraft:command_block_minecart",
+            "nbt": "{CustomModelData:1}"
         },
         "title": "Craftian Data pack",
         "description": "You have the craftian data pack installed!",
