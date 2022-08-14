@@ -2,7 +2,7 @@
     "values": [
         "default:on_load",
 
-        "aquallotle:on_load",
+        "aqualotl:on_load",
         "dr_crimso_creep:on_load",
         "flare_fox:on_load",
         "orecelot:on_load",

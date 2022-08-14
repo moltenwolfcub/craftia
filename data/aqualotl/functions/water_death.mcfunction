@@ -63,10 +63,10 @@ scoreboard players set @a[tag=aquallotle,scores={aquallotle_bottl=1..}] aquallot
 execute as @a[tag=aquallotle] at @s if entity @e[type=potion,distance=..3] run scoreboard players set @s aquallotle_death 0
 
 #weather reset
-execute if predicate aquallotle:is_raining unless predicate aquallotle:in_desert unless predicate aquallotle:in_desert_hills run scoreboard players set @a[tag=aquallotle] aquallotle_death 0
-execute if predicate aquallotle:is_thundering unless predicate aquallotle:in_desert unless predicate aquallotle:in_desert_hills run scoreboard players set @a[tag=aquallotle] aquallotle_death 0
+execute if predicate aqualotl:is_raining unless predicate aqualotl:in_desert unless predicate aqualotl:in_desert_hills run scoreboard players set @a[tag=aquallotle] aquallotle_death 0
+execute if predicate aqualotl:is_thundering unless predicate aqualotl:in_desert unless predicate aqualotl:in_desert_hills run scoreboard players set @a[tag=aquallotle] aquallotle_death 0
 
 #water breathing reset
-scoreboard players set @a[nbt={ActiveEffects:[{Id:13b}]}] aquallotle_death 0
+scoreboard players set @a[nbt={ActiveEffects:[{Id:13}]}] aquallotle_death 0
 
 #endregion water_reset_systems
