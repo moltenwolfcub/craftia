@@ -1,6 +1,11 @@
 {
     "pack": {
-        "pack_format": 7,
-        "description": "The Craftia Datapack and Resourcepack"
+        "description": "The Craftia Datapack and Resourcepack",
+
+
+        "pack_format": 9,
+
+        "_comment": "pack_format is 9 because that is the correct version for 1.19 minecraft resourcepacks however this is not the case",
+        "_comment2":"for datapacks but as most users will be seeing the Resourcepack screen it will be best to make that version correct."
     }
 }

@@ -1,4 +1,4 @@
-# Craftia for 1.17.1
+# Craftia for 1.19.2
 
 ### **This file contains both the datapack and the resourcepack so it should be put in both locations (your resourcepacks folder and the datapacks folder for the world).**
 

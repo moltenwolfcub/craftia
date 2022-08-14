@@ -5,6 +5,7 @@
 
 ## Changes:
 - Combined Resourcepack and Datapack into one file/project
+- Updated to 1.19.2
 
 ## Bugfixes:
 
