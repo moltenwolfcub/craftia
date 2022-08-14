@@ -1,0 +1,9 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/chorus_fruit"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1}, "model": "item/custom/ender_juice" }
+	]
+}

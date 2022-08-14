@@ -1,0 +1,13 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/tropical_fish"
+	},
+	"overrides": [
+		{
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "item/custom/axolotl_marshmallow" }
+	]
+}

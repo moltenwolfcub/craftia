@@ -1,0 +1,36 @@
+{
+    "craftia.drcc.nuke": {
+        "sounds": [
+            {
+                "name": "drcc/nuke",
+                "stream": false
+            }
+        ],
+        "category": "player"
+    },
+    "craftia.wwing.fly": {
+        "sounds": [
+            {
+                "name": "wwing/fly",
+                "stream": false
+            }
+        ],
+        "category": "player"
+    },
+    "craftia.ff.destroy": {
+        "sounds": [
+            {
+                "name": "ff/destroy",
+                "stream":false
+            }
+        ]
+    },
+    "craftia.aquallotle.alarm": {
+        "sounds": [
+            {
+                "name": "aquallotle/water_alarm",
+                "stream": false
+            }
+        ]
+    }
+}

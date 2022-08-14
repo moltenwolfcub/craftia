@@ -1,0 +1,20 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/netherite_sword"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "item/custom/redstone_sword"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "item/custom/panda_blade"
+		}
+	]
+}

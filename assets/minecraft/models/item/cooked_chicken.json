@@ -1,0 +1,13 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/cooked_chicken"
+	},
+	"overrides": [
+		{
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "item/custom/fox_biscuit" }
+	]
+}

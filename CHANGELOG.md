@@ -1,6 +1,18 @@
+# unreleased
+
+## Added Features:
+
+## Changes:
+- Combined Resourcepack and Datapack into one file/project
+
+## Bugfixes:
+
 # 1.3.1
 
-Added Features:
+## Description:
+- a minor update adding many hats and fixing a couple of bugs
+
+## Added Features:
 - added hat_craftia_get
 - added hat_glasses_get
 - added hat_accesory_get
@@ -20,15 +32,15 @@ Added Features:
 
 - wwing elytra break advancement
 
-Changes:
+## Changes:
 - Moved some hats from main get to accesory_get
 
-BugFixes:
+## BugFixes:
 - Added new triggers to the uninstall file
 
 # 1.3.0
 
-Added Features:
+## Added Features:
 - added wolfwing, Potion Panda, Orecelot and Flare Fox pets
 - added wolfwing fly sound
 - added drcc troll sound
@@ -50,7 +62,7 @@ Added Features:
 - Pet Remove Feature
 - aquallotle bubble cannon
 
-Changes:
+## Changes:
 - drcc advancement "Ever Heard Of A Nuke?" --> "DETONATE!!!"
 - made wolfwing crossbow more powerful
 - made wolfwing arrows into tipped arrows
@@ -59,7 +71,7 @@ Changes:
 - aquallotle_block auto removes the blocks now
 - changed creator rank to dev
 
-BugFixes:
+## BugFixes:
 - Grenades now explode on all logical Blocks
 - Craftia_tag_me now does ranks as well
 - modified og particles to be less laggy
@@ -67,37 +79,37 @@ BugFixes:
 
 # 1.2.0
 
-Features:
+## Features:
 - added creator rank
 - added og rank
 
 
 # 1.1.0
 
-Features:
+## Features:
 - added an uninstall function
 - added a trigger to add your tag to yourself
 - added advancements
 
-BugFixes:
+## BugFixes:
 - trigger for panda_giveyou is now enabled
 - panda giveyou now gives to the nearest player
 
 # 1.0.0
 
-Features:
+## Features:
 - added the sound effect to the nuke
 
-BugFixes:
+## BugFixes:
 - added the scoreboard for drcc_nuke
 
 # 0.1.3
 
-Features:
+## Features:
 - Changed Potion Panda's weapon to a retextured netherite sword
 - Panda Bamboo Sword now has sweeping edge
 
-BugFixes:
+## BugFixes:
 - Aquallotle_pet was a baby now an adult
 - Changed Potion Panda's Name back to blue
 - Now Auto Removes Panda_item trigger when tag is removed
@@ -107,13 +119,13 @@ BugFixes:
 
 # 0.1.2
 
-Description:
+## Description:
 - More BugFixes oriented around Flaming Foxling and Orecelot
 
-Features:
+## Features:
 - Changed the pickaxe in orecelot to a netherite one with a golden texture
 
-BugFixes:
+## BugFixes:
 - Flaming Foxlings name was coming up with orecelot-
 - Removes the particle command from ff when tag is removed
 - Removes the oregen command from orecelot when tag is removed
@@ -122,13 +134,13 @@ BugFixes:
 
 # 0.1.1
 
-Description:
+## Description:
 - A few BugFixes mainly focused on WolfWing
 
-Features:
+## Features:
 - Wwing_ender now gives you resistance when holding an ender_pearl so you don't take any damage
 
-BugFixes:
+## BugFixes:
 - Wwing_rocket had two different scoreboard names so the commands couldn't work together
 - Everyones names had a Typo in they were "WolfWing -Oliver85" instead of "WolfWing - Oliver85"
 

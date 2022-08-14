@@ -1,0 +1,137 @@
+{
+    "parent": "minecraft:block/carved_pumpkin",
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model":"item/hats/craftians/potion_panda"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model":"item/hats/craftians/flare_fox"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model":"item/hats/craftians/orecelot"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model":"item/hats/craftians/dr_crimso_creep"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model":"item/hats/craftians/aquallotle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model":"item/hats/craftians/wwing"
+        },
+
+
+
+  		{
+            "predicate": {
+                "custom_model_data": 10
+            },
+            "model": "item/hats/hats/example_hat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 12
+            },
+            "model":"item/hats/hats/miners_hat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 13
+            },
+            "model":"item/hats/hats/scar_remake"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20
+            },
+            "model":"item/hats/hats/panda"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 21
+            },
+            "model":"item/hats/hats/cap"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 22
+            },
+            "model":"item/hats/hats/cowboy_hat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 23
+            },
+            "model":"item/hats/hats/sombrero"
+        },
+        
+
+
+        {
+            "predicate": {
+                "custom_model_data": 14
+            },
+            "model":"item/hats/accesories/pig_face"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 15
+            },
+            "model":"item/hats/accesories/nyan_cat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 16
+            },
+            "model":"item/hats/accesories/jellie_band"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 11
+            },
+            "model": "item/hats/accesories/hannah_test"
+        },
+
+
+
+        {
+            "predicate": {
+                "custom_model_data": 18
+            },
+            "model":"item/hats/glasses/basic_glasses"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 19
+            },
+            "model":"item/hats/glasses/eco_friendly_glasses"
+        },
+
+
+
+        {
+            "predicate": {
+                "custom_model_data": 17
+            },
+            "model":"item/hats/bubble"
+        }
+  	]
+}
