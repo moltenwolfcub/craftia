@@ -18,3 +18,5 @@ function potion_panda:hat
 function potion_panda:effect_me
 function potion_panda:effect_you
 function potion_panda:clear
+
+function potion_panda:bamboo_advancments

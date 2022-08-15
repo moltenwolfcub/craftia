@@ -12,8 +12,5 @@
         "bamboo": {
             "trigger": "impossible"
         }
-    },
-    "rewards": {
-        "function": "potion_panda:advancements/2304_bamboo"
     }
 }
