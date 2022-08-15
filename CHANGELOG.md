@@ -6,6 +6,8 @@
 ## Changes:
 - Combined Resourcepack and Datapack into one file/project
 - Updated to 1.19.2
+- Renamed aquallotle to aqualotl
+- Simplified the introduction message when you become a craftian
 
 ## Bugfixes:
 
