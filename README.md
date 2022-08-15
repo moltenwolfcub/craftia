@@ -23,7 +23,7 @@ The identifiers are as follows:
 - WolfWing = `wwing`
 - FlareFox = `ff`
 - Orecelot = `orecelot`
-- Aquallotle = `aquallotle`
+- Aqualotl = `aqualotl`
 - Dr Crimso Creep = `drcc`
 - Potion Panda = `panda`
 

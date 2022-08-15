@@ -1,10 +1,10 @@
 
-#region aquallotle
+#region aqualotl
 
-tag @a remove aquallotle
-function aquallotle:trigger_remove
+tag @a remove aqualotl
+function aqualotl:trigger_remove
 
-team remove aquallotle
+team remove aqualotl
 
 scoreboard objectives remove aquallotle_block
 scoreboard objectives remove aquallotle_bucke
