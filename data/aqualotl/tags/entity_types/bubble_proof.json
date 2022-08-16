@@ -1,0 +1,29 @@
+{
+    "replace": false,
+    "values": [
+        "#impact_projectiles",
+        "armor_stand",
+        "painting",
+        "item",
+        "item_frame",
+        "glow_item_frame",
+        "area_effect_cloud",
+        "minecart",
+        "tnt_minecart",
+        "chest_minecart",
+        "hopper_minecart",
+        "furnace_minecart",
+        "spawner_minecart",
+        "command_block_minecart",
+        "evoker_fangs",
+        "experience_bottle",
+        "experience_orb",
+        "end_crystal",
+        "falling_block",
+        "firework_rocket",
+        "fishing_bobber",
+        "leash_knot",
+        "lightning_bolt",
+        "llama_spit"
+    ]
+}

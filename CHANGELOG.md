@@ -12,6 +12,7 @@
 - Aqualotls now lose items in the nether upon evaporation
 
 ## Bugfixes:
+- A couple of fixes on the aqualotl bubble Cannon
 
 # 1.3.1
 
