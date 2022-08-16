@@ -9,6 +9,7 @@
 - Renamed aquallotle to aqualotl
 - Simplified the introduction message when you become a craftian
 - Renamed all triggers to an easier to use system
+- Aqualotls now lose items in the nether upon evaporation
 
 ## Bugfixes:
 

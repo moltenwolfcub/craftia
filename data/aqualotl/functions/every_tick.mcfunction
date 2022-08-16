@@ -15,7 +15,7 @@ function aqualotl:peaceful_drowned
 function aqualotl:particle
 function aqualotl:block_feet
 function aqualotl:pet
-function aqualotl:no_nether/main
+function aqualotl:no_nether
 function aqualotl:water_death
 function aqualotl:water_walk
 
