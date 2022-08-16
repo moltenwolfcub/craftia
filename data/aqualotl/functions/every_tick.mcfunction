@@ -1,24 +1,24 @@
-function aquallotle:ran_when_becoming
-function aquallotle:trigger_remove
+function aqualotl:ran_when_becoming
+function aqualotl:trigger_remove
 
-function aquallotle:tool
-function aquallotle:armor
-function aquallotle:item
-function aquallotle:shield
-function aquallotle:banner_head
-function aquallotle:banner
-function aquallotle:bubble_cannon/main
-function aquallotle:hat
+function aqualotl:tool
+function aqualotl:armor
+function aqualotl:item
+function aqualotl:shield
+function aqualotl:banner_head
+function aqualotl:banner
+function aqualotl:bubble_cannon/main
+function aqualotl:hat
 
 
-function aquallotle:peaceful_drowned
-function aquallotle:particle
-function aquallotle:block_feet
-function aquallotle:pet
-function aquallotle:no_nether/main
-function aquallotle:water_death
-function aquallotle:water_walk
+function aqualotl:peaceful_drowned
+function aqualotl:particle
+function aqualotl:block_feet
+function aqualotl:pet
+function aqualotl:no_nether/main
+function aqualotl:water_death
+function aqualotl:water_walk
 
-function aquallotle:water_buff
-function aquallotle:night_buff
-function aquallotle:water_bucket_buff
+function aqualotl:water_buff
+function aqualotl:night_buff
+function aqualotl:water_bucket_buff

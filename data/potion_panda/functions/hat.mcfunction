@@ -1,5 +1,5 @@
-scoreboard players enable @a[tag=panda] panda_hat
+scoreboard players enable @a[tag=potionPanda] potionPanda.hat
 
-give @a[tag=panda,scores={panda_hat=1..}] carved_pumpkin{CustomModelData:1}
+give @a[tag=potionPanda,scores={potionPanda.hat=1..}] carved_pumpkin{CustomModelData:1}
 
-scoreboard players set @a[scores={panda_hat=1..}] panda_hat 0
+scoreboard players set @a[scores={potionPanda.hat=1..}] potionPanda.hat 0

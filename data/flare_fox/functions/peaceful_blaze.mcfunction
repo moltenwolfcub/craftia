@@ -1,3 +1,3 @@
-team join ff @e[type=minecraft:blaze]
-team join ff @a[tag=ff,team=!ff]
-team leave @a[tag=!ff,team=ff]
+team join flareFox @e[type=minecraft:blaze]
+team join flareFox @a[tag=flareFox,team=!flareFox]
+team leave @a[tag=!flareFox,team=flareFox]

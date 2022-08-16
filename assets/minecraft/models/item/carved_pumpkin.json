@@ -48,6 +48,12 @@
         },
         {
             "predicate": {
+                "custom_model_data": 11
+            },
+            "model": "item/hats/accesories/hannah_test"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 12
             },
             "model":"item/hats/hats/miners_hat"
@@ -57,6 +63,42 @@
                 "custom_model_data": 13
             },
             "model":"item/hats/hats/scar_remake"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14
+            },
+            "model":"item/hats/accesories/pig_face"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 15
+            },
+            "model":"item/hats/accesories/nyan_cat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 16
+            },
+            "model":"item/hats/accesories/jellie_band"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 17
+            },
+            "model":"item/hats/bubble"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18
+            },
+            "model":"item/hats/glasses/basic_glasses"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 19
+            },
+            "model":"item/hats/glasses/eco_friendly_glasses"
         },
         {
             "predicate": {
@@ -81,57 +123,6 @@
                 "custom_model_data": 23
             },
             "model":"item/hats/hats/sombrero"
-        },
-        
-
-
-        {
-            "predicate": {
-                "custom_model_data": 14
-            },
-            "model":"item/hats/accesories/pig_face"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 15
-            },
-            "model":"item/hats/accesories/nyan_cat"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 16
-            },
-            "model":"item/hats/accesories/jellie_band"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 11
-            },
-            "model": "item/hats/accesories/hannah_test"
-        },
-
-
-
-        {
-            "predicate": {
-                "custom_model_data": 18
-            },
-            "model":"item/hats/glasses/basic_glasses"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 19
-            },
-            "model":"item/hats/glasses/eco_friendly_glasses"
-        },
-
-
-
-        {
-            "predicate": {
-                "custom_model_data": 17
-            },
-            "model":"item/hats/bubble"
         }
   	]
 }

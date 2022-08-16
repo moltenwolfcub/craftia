@@ -3,26 +3,26 @@ team modify aqualotl color aqua
 team modify aqualotl friendlyFire false
 team modify aqualotl prefix "Aqualotl - "
 
-scoreboard objectives add aquallotle_tool trigger
-scoreboard objectives add aquallotle_equip trigger
-scoreboard objectives add aquallotle_item trigger
-scoreboard objectives add aquallotle_baner trigger
-scoreboard objectives add aquallotle_head trigger
-scoreboard objectives add aquallotle_shiel trigger
-scoreboard objectives add aquallotle_canon trigger
-scoreboard objectives add aquallotle_hat trigger
+scoreboard objectives add aqualotl.tool trigger
+scoreboard objectives add aqualotl.equip trigger
+scoreboard objectives add aqualotl.food trigger
+scoreboard objectives add aqualotl.banner trigger
+scoreboard objectives add aqualotl.banner.head trigger
+scoreboard objectives add aqualotl.banner.shield trigger
+scoreboard objectives add aqualotl.bubbleCannon trigger
+scoreboard objectives add aqualotl.hat trigger
+scoreboard objectives add aqualotl.boots trigger
 
-scoreboard objectives add aquallotle_drops trigger
-scoreboard objectives add aquallotle_block trigger
-scoreboard objectives add aquallotle_stand dummy
-scoreboard objectives add aquallotle_shift custom:sneak_time
-scoreboard objectives add aquallotle_pet trigger
-scoreboard objectives add aquallotle_petgo trigger
+scoreboard objectives add aqualotl.particles trigger
+scoreboard objectives add aqualotl.pet.summon trigger
+scoreboard objectives add aqualotl.pet.desummon trigger
+scoreboard objectives add aqualotl.trail trigger
 
-scoreboard objectives add aquallotle_water dummy
-scoreboard objectives add aquallotle_bucke dummy
-scoreboard objectives add aquallotle_nethe dummy
-scoreboard objectives add aquallotle_fish used:tropical_fish
-scoreboard objectives add aquallotle_death dummy
-scoreboard objectives add aquallotle_bottl used:potion
-scoreboard objectives add aquallotle_boots trigger
+scoreboard objectives add aqualotl.trail.armorStand dummy
+scoreboard objectives add aqualotl.trail.sneakTime custom:sneak_time
+scoreboard objectives add aqualotl.inWater dummy
+scoreboard objectives add aqualotl.holdingBucket dummy
+scoreboard objectives add aqualotl.netherTime dummy
+scoreboard objectives add aqualotl.tropicalFishEaten used:tropical_fish
+scoreboard objectives add aqualotl.timeWithoutWater dummy
+scoreboard objectives add aqualotl.waterDrank used:potion

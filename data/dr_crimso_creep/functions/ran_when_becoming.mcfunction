@@ -1,2 +1,2 @@
-execute as @a[tag=drcc] if entity @s[tag=!old_drcc] run tellraw @s ["",{"text":"Hi ","color":"#23D416"},{"selector":"@s","color":"#23D416"},{"text":", you are now a ","color":"#23D416"},{"text":"Dr Crimso Creep","underlined":true,"color":"blue","hoverEvent":{"action":"show_text","contents":["Your Theme is Redstone and explosions!"]}}]
-execute as @a[tag=drcc] if entity @s[tag=!old_drcc] run tag @s add old_drcc
+execute as @a[tag=drCrimsoCreep] if entity @s[tag=!_drCrimsoCreep_setup] run tellraw @s ["",{"text":"Hi ","color":"#23D416"},{"selector":"@s","color":"#23D416"},{"text":", you are now a ","color":"#23D416"},{"text":"Dr Crimso Creep","underlined":true,"color":"blue","hoverEvent":{"action":"show_text","contents":["Your Theme is Redstone and explosions!"]}}]
+execute as @a[tag=drCrimsoCreep] if entity @s[tag=!_drCrimsoCreep_setup] run tag @s add _drCrimsoCreep_setup

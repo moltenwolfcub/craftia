@@ -1,26 +1,26 @@
-team add wwing
-team modify wwing color gold
-team modify wwing friendlyFire false
-team modify wwing prefix "WolfWing - "
+team add wolfWing
+team modify wolfWing color gold
+team modify wolfWing friendlyFire false
+team modify wolfWing prefix "WolfWing - "
 
-scoreboard objectives add wwing_item trigger
-scoreboard objectives add wwing_ender trigger
-scoreboard objectives add wwing_rocket trigger
-scoreboard objectives add wwing_tool trigger
-scoreboard objectives add wwing_equip trigger
-scoreboard objectives add wwing_particle trigger
-scoreboard objectives add wwing_buff trigger
-scoreboard objectives add wwing_launch trigger
-scoreboard objectives add wwing_shadow trigger
-scoreboard objectives add wwing_nether trigger
-scoreboard objectives add wwing_fly trigger
-scoreboard objectives add wwing_pet trigger
-scoreboard objectives add wwing_pet-remove trigger
-scoreboard objectives add wwing_banner trigger
-scoreboard objectives add wwing_bannerhead trigger
-scoreboard objectives add wwing_shield trigger
-scoreboard objectives add wwing_hat trigger
+scoreboard objectives add wolfWing.food trigger
+scoreboard objectives add wolfWing.enderpearls trigger
+scoreboard objectives add wolfWing.rockets trigger
+scoreboard objectives add wolfWing.tool trigger
+scoreboard objectives add wolfWing.equip trigger
+scoreboard objectives add wolfWing.particles trigger
+scoreboard objectives add wolfWing.buff trigger
+scoreboard objectives add wolfWing.launch trigger
+scoreboard objectives add wolfWing.shadow.travel trigger
+scoreboard objectives add wolfWing.nether trigger
+scoreboard objectives add wolfWing.flight trigger
+scoreboard objectives add wolfWing.pet.summon trigger
+scoreboard objectives add wolfWing.pet.desummon trigger
+scoreboard objectives add wolfWing.banner trigger
+scoreboard objectives add wolfWing.banner.head trigger
+scoreboard objectives add wolfWing.banner.shield trigger
+scoreboard objectives add wolfWing.hat trigger
 
-scoreboard objectives add wwing_offhand dummy
-scoreboard objectives add wwing_inshadow dummy
-scoreboard objectives add wwing_chorus used:chorus_fruit
+scoreboard objectives add wolfWing.holdingTravel dummy
+scoreboard objectives add wolfWing.shadow.inShadow dummy
+scoreboard objectives add wolfWing.chorusEaten used:chorus_fruit

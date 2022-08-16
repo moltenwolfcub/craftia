@@ -1,13 +1,13 @@
 function default:tag_me
 
 
-function default:ranks/dev/ran_when_becoming
-function default:ranks/dev/remove_triggers
-function default:ranks/dev/equip
+function default:ranks/developer/ran_when_becoming
+function default:ranks/developer/remove_triggers
+function default:ranks/developer/equip
 
-function default:ranks/og/ran_when_becoming
-function default:ranks/og/remove_triggers
-function default:ranks/og/particle
+function default:ranks/original/ran_when_becoming
+function default:ranks/original/remove_triggers
+function default:ranks/original/particle
 
 function default:ranks/hat/ran_when_becoming
 function default:ranks/hat/remove_triggers

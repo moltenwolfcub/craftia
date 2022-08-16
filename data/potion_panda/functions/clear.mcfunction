@@ -1,7 +1,7 @@
-scoreboard players enable @a[tag=panda,scores={panda_clear_set=1}] panda_clear
+scoreboard players enable @a[tag=potionPanda,scores={potionPanda.effect.remove.me.cooldown=1}] potionPanda.effect.remove.me
 
-execute as @a[tag=panda,scores={panda_clear=1}] run effect clear @s
-scoreboard players set @a[tag=panda,scores={panda_clear=1..}] panda_clear_set 200
-execute as @a[tag=panda,scores={panda_clear_set=1..}] run scoreboard players remove @s panda_clear_set 1
+execute as @a[tag=potionPanda,scores={potionPanda.effect.remove.me=1}] run effect clear @s
+scoreboard players set @a[tag=potionPanda,scores={potionPanda.effect.remove.me=1..}] potionPanda.effect.remove.me.cooldown 200
+execute as @a[tag=potionPanda,scores={potionPanda.effect.remove.me.cooldown=1..}] run scoreboard players remove @s potionPanda.effect.remove.me.cooldown 1
 
-scoreboard players set @a[tag=panda,scores={panda_clear=1..}] panda_clear 0
+scoreboard players set @a[tag=potionPanda,scores={potionPanda.effect.remove.me=1..}] potionPanda.effect.remove.me 0

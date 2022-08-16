@@ -1,31 +1,33 @@
-scoreboard players enable @a craftia_tag_me
+scoreboard players enable @a craftia.tagMe
 
-tellraw @a[scores={craftia_tag_me=1..},name="MoltenWolfCub"] {"text":"According to our Craftia database the player name MoltenWolfCub is a WolfWing.","color":"gold"}
-tag @a[scores={craftia_tag_me=1..},name="MoltenWolfCub"] add wwing
-tellraw @a[scores={craftia_tag_me=1..},name="MoltenWolfCub"] {"text":"According to our Craftia database the player name MoltenWolfCub is a Developer.","color":"gold"}
-tag @a[scores={craftia_tag_me=1..},name="MoltenWolfCub"] add dev
-tellraw @a[scores={craftia_tag_me=1..},name="MoltenWolfCub"] {"text":"According to our Craftia database the player name MoltenWolfCub is an Original Craftian.","color":"gold"}
-tag @a[scores={craftia_tag_me=1..},name="MoltenWolfCub"] add og
+tellraw @a[scores={craftia.tagMe=1..},name="MoltenWolfCub"] {"text":"According to the Craftia database you are an Original Craftian.","color":"gold"}
+tag @a[scores={craftia.tagMe=1..},name="MoltenWolfCub"] add original
+tellraw @a[scores={craftia.tagMe=1..},name="HannahLizzieLou"] {"text":"According to the Craftia database you are an Original Craftian.","color":"gold"}
+tag @a[scores={craftia.tagMe=1..},name="HannahLizzieLou"] add original
+tellraw @a[scores={craftia.tagMe=1..},name="PeachPeak"] {"text":"According to the Craftia database you are an Original Craftian.","color":"gold"}
+tag @a[scores={craftia.tagMe=1..},name="PeachPeak"] add original
+tellraw @a[scores={craftia.tagMe=1..},name="StrollingCheetah"] {"text":"According to the Craftia database you are an Original Craftian.","color":"gold"}
+tag @a[scores={craftia.tagMe=1..},name="StrollingCheetah"] add original
 
-tellraw @a[scores={craftia_tag_me=1..},name="HannahLizzieLou"] {"text":"According to our Craftia database the player name HannahLizzieLou is a Potion Panda","color":"gold"}
-tag @a[scores={craftia_tag_me=1..},name="HannahLizzieLou"] add panda
-tellraw @a[scores={craftia_tag_me=1..},name="HannahLizzieLou"] {"text":"According to our Craftia database the player name HannahLizzieLou is an Original Craftian.","color":"gold"}
-tag @a[scores={craftia_tag_me=1..},name="HannahLizzieLou"] add og
-tellraw @a[scores={craftia_tag_me=1..},name="HannahLizzieLou"] {"text":"According to our Craftia database the player name HannahLizzieLou came up with the idea of hats.","color":"gold"}
-tag @a[scores={craftia_tag_me=1..},name="HannahLizzieLou"] add hat
+tellraw @a[scores={craftia.tagMe=1..},name="HannahLizzieLou"] {"text":"According to the Craftia database you are the one who came up with the idea of hats.","color":"gold"}
+tag @a[scores={craftia.tagMe=1..},name="HannahLizzieLou"] add hat
 
-tellraw @a[scores={craftia_tag_me=1..},name="PeachPeak"] {"text":"According to our Craftia database the player name PeachPeak is a Flaming Foxling","color":"gold"}
-tag @a[scores={craftia_tag_me=1..},name="PeachPeak"] add ff
-tellraw @a[scores={craftia_tag_me=1..},name="PeachPeak"] {"text":"According to our Craftia database the player name PeachPeak is an Original Craftian.","color":"gold"}
-tag @a[scores={craftia_tag_me=1..},name="PeachPeak"] add og
-
-tellraw @a[scores={craftia_tag_me=1..},name="StrollingCheetah"] {"text":"According to our Craftia database the player name StrollingCheetah is a Orecelot","color":"gold"}
-tag @a[scores={craftia_tag_me=1..},name="StrollingCheetah"] add orecelot
-tellraw @a[scores={craftia_tag_me=1..},name="StrollingCheetah"] {"text":"According to our Craftia database the player name StrollingCheetah is an Original Craftian.","color":"gold"}
-tag @a[scores={craftia_tag_me=1..},name="StrollingCheetah"] add og
+tellraw @a[scores={craftia.tagMe=1..},name="MoltenWolfCub"] {"text":"According to the Craftia database you are a Developer.","color":"gold"}
+tag @a[scores={craftia.tagMe=1..},name="MoltenWolfCub"] add developer
 
 
-tellraw @a[scores={craftia_tag_me=1..},name=!"MoltenWolfCub",name=!"PeachPeak",name=!"StrollingCheetah",name=!"HannahLizzieLou"] {"text":"Sorry, You are not in our database","color":"gold"}
+tellraw @a[scores={craftia.tagMe=1..},name="MoltenWolfCub"] {"text":"According to the Craftia database you are a WolfWing.","color":"gold"}
+tag @a[scores={craftia.tagMe=1..},name="MoltenWolfCub"] add wolfWing
+tellraw @a[scores={craftia.tagMe=1..},name="HannahLizzieLou"] {"text":"According to the Craftia database you are a Potion Panda","color":"gold"}
+tag @a[scores={craftia.tagMe=1..},name="HannahLizzieLou"] add potionPanda
+tellraw @a[scores={craftia.tagMe=1..},name="PeachPeak"] {"text":"According to the Craftia database you are a FlareFox","color":"gold"}
+tag @a[scores={craftia.tagMe=1..},name="PeachPeak"] add flareFox
+tellraw @a[scores={craftia.tagMe=1..},name="StrollingCheetah"] {"text":"According to the Craftia database you are a Orecelot","color":"gold"}
+tag @a[scores={craftia.tagMe=1..},name="StrollingCheetah"] add orecelot
 
 
-scoreboard players set @a[scores={craftia_tag_me=1..}] craftia_tag_me 0
+
+tellraw @a[scores={craftia.tagMe=1..},name=!"MoltenWolfCub",name=!"PeachPeak",name=!"StrollingCheetah",name=!"HannahLizzieLou"] {"text":"Sorry, You are not in the database","color":"gold"}
+
+
+scoreboard players set @a[scores={craftia.tagMe=1..}] craftia.tagMe 0

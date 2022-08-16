@@ -10,7 +10,7 @@ function flare_fox:shield
 function flare_fox:hat
 function flare_fox:fireball
 function flare_fox:lightning
-scoreboard players set @a[scores={ff_carrot=1..}] ff_carrot 0
+scoreboard players set @a[scores={flareFox.carrotOnSticksUsed=1..}] flareFox.carrotOnSticksUsed 0
 function flare_fox:mooshroom/equip
 
 function flare_fox:buff

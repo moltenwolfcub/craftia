@@ -8,6 +8,7 @@
 - Updated to 1.19.2
 - Renamed aquallotle to aqualotl
 - Simplified the introduction message when you become a craftian
+- Renamed all triggers to an easier to use system
 
 ## Bugfixes:
 

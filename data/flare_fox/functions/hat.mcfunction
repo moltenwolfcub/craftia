@@ -1,5 +1,5 @@
-scoreboard players enable @a[tag=ff] ff_hat
+scoreboard players enable @a[tag=flareFox] flareFox.hat
 
-give @a[tag=ff,scores={ff_hat=1..}] carved_pumpkin{CustomModelData:2}
+give @a[tag=flareFox,scores={flareFox.hat=1..}] carved_pumpkin{CustomModelData:2}
 
-scoreboard players set @a[scores={ff_hat=1..}] ff_hat 0
+scoreboard players set @a[scores={flareFox.hat=1..}] flareFox.hat 0

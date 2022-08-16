@@ -1,3 +1,3 @@
-scoreboard players enable @a[tag=ff] ff_tool
-give @a[tag=ff,scores={ff_tool=1}] minecraft:blaze_rod{Unbreakable:1b,display:{Name:'{"text":"Flaming Foxling Blazing Blade"}',Lore:[""]}, Enchantments:[{id:"fire_aspect",lvl:5},{id:"sharpness",lvl:10}],AttributeModifiers:[{Slot:"mainhand", AttributeName:"generic.attack_damage", Name:"generic.attack_damage", Amount:10, Operation:0, UUID:[I; -110663, 103297, -1423577, -666666]},{Slot:"mainhand", AttributeName:"generic.attack_speed", Name:"generic.attack_speed", Amount:10, Operation:0, UUID:[I; -110663, 103297, -1423577, -666766]}]}
-scoreboard players set @a[tag=ff,scores={ff_tool=1}] ff_tool 0
+scoreboard players enable @a[tag=flareFox] flareFox.tool
+give @a[tag=flareFox,scores={flareFox.tool=1}] minecraft:blaze_rod{Unbreakable:1b,display:{Name:'{"text":"Flaming Foxling Blazing Blade"}',Lore:[""]}, Enchantments:[{id:"fire_aspect",lvl:5},{id:"sharpness",lvl:10}],AttributeModifiers:[{Slot:"mainhand", AttributeName:"generic.attack_damage", Name:"generic.attack_damage", Amount:10, Operation:0, UUID:[I; -110663, 103297, -1423577, -666666]},{Slot:"mainhand", AttributeName:"generic.attack_speed", Name:"generic.attack_speed", Amount:10, Operation:0, UUID:[I; -110663, 103297, -1423577, -666766]}]}
+scoreboard players set @a[tag=flareFox,scores={flareFox.tool=1}] flareFox.tool 0

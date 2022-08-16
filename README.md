@@ -10,26 +10,22 @@ This is a datapack adding 6 uniquely themed characters who all have their own cu
 - WolfWing
 - FlareFox
 - Orecelot
-- Aquallotle
+- Aqualotl
 - Dr Crimso Creep
 - Potion Panda
 
-
+### **How to become a Craftian**
 To become one of these Craftians do one of these two things:
-Firstly try this, run the command `/trigger craftia_tag_me` and it will make you one of them if your minecraft username is setup in the code.
-If the previous method didn't work then you will have to have admin to become one of them. In chat run `/tag @s add ` and then the identifier for each craftian.
 
-The identifiers are as follows:
-- WolfWing = `wwing`
-- FlareFox = `ff`
-- Orecelot = `orecelot`
-- Aqualotl = `aqualotl`
-- Dr Crimso Creep = `drcc`
-- Potion Panda = `panda`
+Firstly try this, run the command `/trigger craftia.tagMe` and it will make you one of them if your minecraft username is setup in the code.
 
-Say for instance you wanted to become WolfWing you would run `/tag @s add wwing`.
+If the previous method didn't work then you will have to have admin to become one of them. In chat run `/tag @s add ` and then the full name of the desired Craftian written out in Camel Case(no spaces between words and each word starts with a capital except the first).
 
-Don't become multiple people at once as it gets weird with commands. Run `/tag @s remove ` and then the craftian's identifier that you currently are.
+So say you wanted to become Dr Crimso Creep you would run: `/tag @s add drCrimsoCreep`
+
+If ran correctly you should be sent a message in chat `Hi <Your player name>, you are now a <craftian Name>.`. This is your confirmation that you typed the craftian name correctly and that you are now able to try out that craftian's abilities
+
+Don't become multiple people at once as their commands will conflict. Before becoming a different Craftian run `/tag @s remove ` and then the craftian's name that you previously were.
 
 ## **Resourcepack instructions**
 

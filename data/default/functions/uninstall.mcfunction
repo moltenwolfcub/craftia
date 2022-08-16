@@ -6,89 +6,88 @@ function aqualotl:trigger_remove
 
 team remove aqualotl
 
-scoreboard objectives remove aquallotle_block
-scoreboard objectives remove aquallotle_bucke
-scoreboard objectives remove aquallotle_drops
-scoreboard objectives remove aquallotle_equip
-scoreboard objectives remove aquallotle_fish
-scoreboard objectives remove aquallotle_item
-scoreboard objectives remove aquallotle_nethe
-scoreboard objectives remove aquallotle_pet
-scoreboard objectives remove aquallotle_tool
-scoreboard objectives remove aquallotle_water
-scoreboard objectives remove aquallotle_death
-scoreboard objectives remove aquallotle_bottl
-scoreboard objectives remove aquallotle_boots
-scoreboard objectives remove aquallotle_baner
-scoreboard objectives remove aquallotle_head
-scoreboard objectives remove aquallotle_shiel
-scoreboard objectives remove aquallotle_shift
-scoreboard objectives remove aquallotle_stand
-scoreboard objectives remove aquallotle_petgo
-scoreboard objectives remove aquallotle_canon
-scoreboard objectives remove aquallotle_hat
+scoreboard objectives remove aqualotl.banner
+scoreboard objectives remove aqualotl.banner.head
+scoreboard objectives remove aqualotl.banner.shield
+scoreboard objectives remove aqualotl.boots
+scoreboard objectives remove aqualotl.bubbleCannon
+scoreboard objectives remove aqualotl.equip
+scoreboard objectives remove aqualotl.food
+scoreboard objectives remove aqualotl.hat
+scoreboard objectives remove aqualotl.holdingBucket
+scoreboard objectives remove aqualotl.inWater
+scoreboard objectives remove aqualotl.netherTime
+scoreboard objectives remove aqualotl.particles
+scoreboard objectives remove aqualotl.pet.desummon
+scoreboard objectives remove aqualotl.pet.summon
+scoreboard objectives remove aqualotl.timeWithoutWater
+scoreboard objectives remove aqualotl.tool
+scoreboard objectives remove aqualotl.trail
+scoreboard objectives remove aqualotl.trail.armorStand
+scoreboard objectives remove aqualotl.trail.sneakTime
+scoreboard objectives remove aqualotl.tropicalFishEaten
+scoreboard objectives remove aqualotl.waterDrank
 
 #endregion
-#region drcc
+#region drCrimsoCreep
 
-tag @a remove drcc
+tag @a remove drCrimsoCreep
 function dr_crimso_creep:trigger_remove
 
-team remove drcc
+team remove drCrimsoCreep
 
-scoreboard objectives remove drcc_beetroot
-scoreboard objectives remove drcc_equip
-scoreboard objectives remove drcc_grenade
-scoreboard objectives remove drcc_grenadetime
-scoreboard objectives remove drcc_item
-scoreboard objectives remove drcc_nuke-launch
-scoreboard objectives remove drcc_nuke-remove
-scoreboard objectives remove drcc_nuke-set
-scoreboard objectives remove drcc_offhand
-scoreboard objectives remove drcc_particle
-scoreboard objectives remove drcc_redstone
-scoreboard objectives remove drcc_snare-clear
-scoreboard objectives remove drcc_snare-set
-scoreboard objectives remove drcc_snare-show
-scoreboard objectives remove drcc_tool
-scoreboard objectives remove drcc_troll_sound
-scoreboard objectives remove drcc_banner
-scoreboard objectives remove drcc_bannerhead
-scoreboard objectives remove drcc_shield
-scoreboard objectives remove drcc_pet-remove
-scoreboard objectives remove drcc_pet
-scoreboard objectives remove drcc_hat
-
-scoreboard objectives remove grenade_launched
+scoreboard objectives remove drCrimsoCreep.banner
+scoreboard objectives remove drCrimsoCreep.banner.head
+scoreboard objectives remove drCrimsoCreep.banner.shield
+scoreboard objectives remove drCrimsoCreep.beetrootEaten
+scoreboard objectives remove drCrimsoCreep.equip
+scoreboard objectives remove drCrimsoCreep.food
+scoreboard objectives remove drCrimsoCreep.grenade
+scoreboard objectives remove drCrimsoCreep.grenade.launched
+scoreboard objectives remove drCrimsoCreep.grenade.time
+scoreboard objectives remove drCrimsoCreep.hat
+scoreboard objectives remove drCrimsoCreep.holdingRedstone
+scoreboard objectives remove drCrimsoCreep.nuke.launch
+scoreboard objectives remove drCrimsoCreep.nuke.remove
+scoreboard objectives remove drCrimsoCreep.nuke.set
+scoreboard objectives remove drCrimsoCreep.particles
+scoreboard objectives remove drCrimsoCreep.pet.desummon
+scoreboard objectives remove drCrimsoCreep.pet.summon
+scoreboard objectives remove drCrimsoCreep.redstone.get
+scoreboard objectives remove drCrimsoCreep.snare.clear
+scoreboard objectives remove drCrimsoCreep.snare.set
+scoreboard objectives remove drCrimsoCreep.snare.show
+scoreboard objectives remove drCrimsoCreep.sound
+scoreboard objectives remove drCrimsoCreep.tool
 
 #endregion
-#region ff
+#region flareFox
 
-tag @a remove ff
+tag @a remove flareFox
 function flare_fox:trigger_remove
 
-team remove ff
+team remove flareFox
 
-scoreboard objectives remove ff_banner
-scoreboard objectives remove ff_banner-head
-scoreboard objectives remove ff_chicken
-scoreboard objectives remove ff_destroy
-scoreboard objectives remove ff_equip
-scoreboard objectives remove ff_fire
-scoreboard objectives remove ff_item
-scoreboard objectives remove ff_nether
-scoreboard objectives remove ff_offhand
-scoreboard objectives remove ff_particle
-scoreboard objectives remove ff_tool
-scoreboard objectives remove ff_moo_equip
-scoreboard objectives remove ff_pet
-scoreboard objectives remove ff_shield
-scoreboard objectives remove ff_fireball
-scoreboard objectives remove ff_lightning
-scoreboard objectives remove ff_carrot
-scoreboard objectives remove ff_feet
-scoreboard objectives remove ff_pet-remove
-scoreboard objectives remove ff_hat
+scoreboard objectives remove flareFox.banner
+scoreboard objectives remove flareFox.banner.head
+scoreboard objectives remove flareFox.banner.shield
+scoreboard objectives remove flareFox.carrotOnSticksUsed
+scoreboard objectives remove flareFox.destroy
+scoreboard objectives remove flareFox.equip
+scoreboard objectives remove flareFox.food
+scoreboard objectives remove flareFox.hat
+scoreboard objectives remove flareFox.holdingLavaBucket
+scoreboard objectives remove flareFox.inNether
+scoreboard objectives remove flareFox.mooshroom.equip
+scoreboard objectives remove flareFox.nearChicken
+scoreboard objectives remove flareFox.onMagma
+scoreboard objectives remove flareFox.particles
+scoreboard objectives remove flareFox.pet.desummon
+scoreboard objectives remove flareFox.pet.summon
+scoreboard objectives remove flareFox.staff.fireball
+scoreboard objectives remove flareFox.staff.lightning
+scoreboard objectives remove flareFox.tool
+scoreboard objectives remove flareFox.trail
 
 #endregion
 #region orecelot
@@ -98,118 +97,119 @@ function orecelot:trigger_remove
 
 team remove orecelot
 
-scoreboard objectives remove orecelot_equip
-scoreboard objectives remove orecelot_feet
-scoreboard objectives remove orecelot_guard
-scoreboard objectives remove orecelot_item
-scoreboard objectives remove orecelot_kill
-scoreboard objectives remove orecelot_offhand
-scoreboard objectives remove orecelot_oregen
-scoreboard objectives remove orecelot_particl
-scoreboard objectives remove orecelot_timer
-scoreboard objectives remove orecelot_tool
-scoreboard objectives remove orecelot_unfreez
-scoreboard objectives remove orecelot_shield
-scoreboard objectives remove orecelot_pet-go
-scoreboard objectives remove orecelot_head
-scoreboard objectives remove orecelot_pet
-scoreboard objectives remove orecelot_banner
-scoreboard objectives remove orecelot_hat
+scoreboard objectives remove orecelot.banner
+scoreboard objectives remove orecelot.banner.head
+scoreboard objectives remove orecelot.banner.shield
+scoreboard objectives remove orecelot.equip
+scoreboard objectives remove orecelot.food
+scoreboard objectives remove orecelot.guard.desummon
+scoreboard objectives remove orecelot.guard.summon
+scoreboard objectives remove orecelot.guard.unfreeze
+scoreboard objectives remove orecelot.hat
+scoreboard objectives remove orecelot.holdingOre
+scoreboard objectives remove orecelot.onOres
+scoreboard objectives remove orecelot.ores.generator
+scoreboard objectives remove orecelot.ores.generator.timer
+scoreboard objectives remove orecelot.particles
+scoreboard objectives remove orecelot.pet.desummon
+scoreboard objectives remove orecelot.pet.summon
+scoreboard objectives remove orecelot.tool
 
 #endregion
-#region panda
+#region potionPanda
 
-tag @a remove panda
+tag @a remove potionPanda
 function potion_panda:trigger_remove
 
-team remove panda
+team remove potionPanda
 
-scoreboard objectives remove panda_banner
-scoreboard objectives remove panda_bannerhead
-scoreboard objectives remove panda_shield
-scoreboard objectives remove panda_clear
-scoreboard objectives remove panda_clear_set
-scoreboard objectives remove panda_cookie
-scoreboard objectives remove panda_equip
-scoreboard objectives remove panda_giveme
-scoreboard objectives remove panda_giveme_set
-scoreboard objectives remove panda_giveyo_set
-scoreboard objectives remove panda_giveyou
-scoreboard objectives remove panda_item
-scoreboard objectives remove panda_particle
-scoreboard objectives remove panda_tool
-scoreboard objectives remove panda_pet
-scoreboard objectives remove panda_stand
-scoreboard objectives remove panda_cannon_get
-scoreboard objectives remove panda_cannon_mod
-scoreboard objectives remove panda_offhand
-scoreboard objectives remove panda_shift
-scoreboard objectives remove panda_block
-scoreboard objectives remove panda_pet-remove
-scoreboard objectives remove panda_hat
+scoreboard objectives remove potionPanda.banner
+scoreboard objectives remove potionPanda.banner.head
+scoreboard objectives remove potionPanda.banner.shield
+scoreboard objectives remove potionPanda.cookiesEaten
+scoreboard objectives remove potionPanda.effect.give.me
+scoreboard objectives remove potionPanda.effect.give.me.cooldown
+scoreboard objectives remove potionPanda.effect.give.you
+scoreboard objectives remove potionPanda.effect.give.you.cooldown
+scoreboard objectives remove potionPanda.effect.remove.me
+scoreboard objectives remove potionPanda.effect.remove.me.cooldown
+scoreboard objectives remove potionPanda.equip
+scoreboard objectives remove potionPanda.food
+scoreboard objectives remove potionPanda.hat
+scoreboard objectives remove potionPanda.holdingPotion
+scoreboard objectives remove potionPanda.particles
+scoreboard objectives remove potionPanda.pet.desummon
+scoreboard objectives remove potionPanda.pet.summon
+scoreboard objectives remove potionPanda.potionCannon.get
+scoreboard objectives remove potionPanda.potionCannon.setPotion
+scoreboard objectives remove potionPanda.tool
+scoreboard objectives remove potionPanda.trail
+scoreboard objectives remove potionPanda.trail.armorStand
+scoreboard objectives remove potionPanda.trail.sneakTime
 
 #endregion
-#region wwing
+#region wolfWing
 
-tag @a remove wwing
+tag @a remove wolfWing
 function wolfwing:trigger_remove
 
-team remove wwing
+team remove wolfWing
 
-scoreboard objectives remove wwing_buff
-scoreboard objectives remove wwing_chorus
-scoreboard objectives remove wwing_ender
-scoreboard objectives remove wwing_equip
-scoreboard objectives remove wwing_fly
-scoreboard objectives remove wwing_inshadow
-scoreboard objectives remove wwing_item
-scoreboard objectives remove wwing_launch
-scoreboard objectives remove wwing_nether
-scoreboard objectives remove wwing_offhand
-scoreboard objectives remove wwing_particle
-scoreboard objectives remove wwing_rocket
-scoreboard objectives remove wwing_shadow
-scoreboard objectives remove wwing_tool
-scoreboard objectives remove wwing_pet
-scoreboard objectives remove wwing_banner
-scoreboard objectives remove wwing_bannerhead
-scoreboard objectives remove wwing_shield
-scoreboard objectives remove wwing_pet-remove
-scoreboard objectives remove wwing_hat
+scoreboard objectives remove wolfWing.banner
+scoreboard objectives remove wolfWing.banner.head
+scoreboard objectives remove wolfWing.banner.shield
+scoreboard objectives remove wolfWing.buff
+scoreboard objectives remove wolfWing.chorusEaten
+scoreboard objectives remove wolfWing.enderpearls
+scoreboard objectives remove wolfWing.equip
+scoreboard objectives remove wolfWing.flight
+scoreboard objectives remove wolfWing.food
+scoreboard objectives remove wolfWing.hat
+scoreboard objectives remove wolfWing.holdingTravel
+scoreboard objectives remove wolfWing.inShadow
+scoreboard objectives remove wolfWing.launch
+scoreboard objectives remove wolfWing.nether
+scoreboard objectives remove wolfWing.particles
+scoreboard objectives remove wolfWing.pet.desummon
+scoreboard objectives remove wolfWing.pet.summon
+scoreboard objectives remove wolfWing.rockets
+scoreboard objectives remove wolfWing.shadow.travel
+scoreboard objectives remove wolfWing.tool
 
 #endregion
 #region default
 
-tag @a remove og
-tag @a remove dev
+scoreboard objectives remove craftia.money.holding
+scoreboard objectives remove craftia.tagMe
 
-scoreboard objectives remove craftia_in_hand
-scoreboard objectives remove craftia_tag_me
-
-scoreboard objectives remove craftia_money
-scoreboard objectives remove craftia_take_1
-scoreboard objectives remove craftia_take_5
-scoreboard objectives remove craftia_take_10
-scoreboard objectives remove craftia_take_20
-scoreboard objectives remove craftia_take_50
-scoreboard objectives remove craftia_take_100
-scoreboard objectives remove craftia_return
-scoreboard objectives remove craftia_shop
-scoreboard objectives remove craftia_trigger
-scoreboard objectives remove zombie_kills
-scoreboard objectives remove skeleton_kills
+scoreboard objectives remove craftia.money
+scoreboard objectives remove craftia.money.take.1
+scoreboard objectives remove craftia.money.take.5
+scoreboard objectives remove craftia.money.take.10
+scoreboard objectives remove craftia.money.take.20
+scoreboard objectives remove craftia.money.take.50
+scoreboard objectives remove craftia.money.take.100
+scoreboard objectives remove craftia.money.return
+scoreboard objectives remove craftia.shop
+scoreboard objectives remove craftia.shop.trigger
+scoreboard objectives remove craftia.shop.kills.zombie
+scoreboard objectives remove craftia.shop.kills.skeleton
 
 #endregion
 #region ranks
 
-scoreboard objectives remove dev_block
+tag @a remove original
+tag @a remove developer
+tag @a remove hat
 
-scoreboard objectives remove og_particle
+scoreboard objectives remove developer.equip
 
-scoreboard objectives remove hat_get
-scoreboard objectives remove hat_accesory_get
-scoreboard objectives remove hat_glasses_get
-scoreboard objectives remove hat_craftia_get
+scoreboard objectives remove original.particle
+
+scoreboard objectives remove hat.get.hat
+scoreboard objectives remove hat.get.accesory
+scoreboard objectives remove hat.get.glasses
+scoreboard objectives remove hat.get.craftia
 
 #endregion
 

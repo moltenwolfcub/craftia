@@ -1,3 +1,3 @@
-team join drcc @e[type=minecraft:creeper]
-team join drcc @a[tag=drcc,team=!drcc]
-team leave @a[tag=!drcc,team=drcc]
+team join drCrimsoCreep @e[type=minecraft:creeper]
+team join drCrimsoCreep @a[tag=drCrimsoCreep,team=!drCrimsoCreep]
+team leave @a[tag=!drCrimsoCreep,team=drCrimsoCreep]

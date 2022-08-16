@@ -1,27 +1,27 @@
-team add ff
-team modify ff color red
-team modify ff friendlyFire false
-team modify ff prefix "Flare Fox - "
+team add flareFox
+team modify flareFox color red
+team modify flareFox friendlyFire false
+team modify flareFox prefix "Flare Fox - "
 
-scoreboard objectives add ff_item trigger
-scoreboard objectives add ff_particle trigger
-scoreboard objectives add ff_equip trigger
-scoreboard objectives add ff_tool trigger
-scoreboard objectives add ff_banner trigger
-scoreboard objectives add ff_banner-head trigger
-scoreboard objectives add ff_shield trigger
-scoreboard objectives add ff_hat trigger
-scoreboard objectives add ff_fire trigger
-scoreboard objectives add ff_destroy trigger
-scoreboard objectives add ff_pet trigger
-scoreboard objectives add ff_pet-remove trigger
-scoreboard objectives add ff_feet dummy
-scoreboard objectives add ff_fireball trigger
-scoreboard objectives add ff_lightning trigger
-scoreboard objectives add ff_carrot used:carrot_on_a_stick
+scoreboard objectives add flareFox.food trigger
+scoreboard objectives add flareFox.particles trigger
+scoreboard objectives add flareFox.equip trigger
+scoreboard objectives add flareFox.tool trigger
+scoreboard objectives add flareFox.banner trigger
+scoreboard objectives add flareFox.banner.head trigger
+scoreboard objectives add flareFox.banner.shield trigger
+scoreboard objectives add flareFox.hat trigger
+scoreboard objectives add flareFox.trail trigger
+scoreboard objectives add flareFox.destroy trigger
+scoreboard objectives add flareFox.pet.summon trigger
+scoreboard objectives add flareFox.pet.desummon trigger
+scoreboard objectives add flareFox.staff.fireball trigger
+scoreboard objectives add flareFox.staff.lightning trigger
 
-scoreboard objectives add ff_nether dummy
-scoreboard objectives add ff_chicken dummy
-scoreboard objectives add ff_offhand dummy
+scoreboard objectives add flareFox.mooshroom.equip trigger
 
-scoreboard objectives add ff_moo_equip trigger
+scoreboard objectives add flareFox.carrotOnSticksUsed used:carrot_on_a_stick
+scoreboard objectives add flareFox.inNether dummy
+scoreboard objectives add flareFox.nearChicken dummy
+scoreboard objectives add flareFox.holdingLavaBucket dummy
+scoreboard objectives add flareFox.onMagma dummy
